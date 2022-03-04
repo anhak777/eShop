@@ -1,0 +1,17 @@
+.navbar {
+    /* background: white !important; */
+    /* height: 98px; */
+}
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
+
+.navbar-brand {
+    margin-right: 88px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0D0E43;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+}
