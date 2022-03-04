@@ -1,7 +1,7 @@
-.navbar {
-    /* background: white !important; */
-    /* height: 98px; */
-}
+/* .navbar {
+    background: white !important; 
+     height: 98px;
+} */
 
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lato', sans-serif; */
@@ -14,4 +14,11 @@ font-family: 'Lato', sans-serif; */
     font-style: normal;
     font-weight: bold;
     font-size: 34px;
+}
+
+.dropdown-toggle::after {
+    margin: 0 0 0 -4px;
+    content: "⌄";
+    border: none;
+    vertical-align: 0;
 }
