@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
+
+.lilac {
+    background-color: #F2F0FF;
+}
+
+.pink-btn {
+    box-sizing: border-box;
+    height: 50px;
+    background: #FB2E86;
+    border-radius: 2px;
+    padding: 14px 40px;
+    border: none;
+}
+
+.pink-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+}
+
+.header-back {    
+    height: 286px;
+    box-sizing: border-box;
+}
+
+.caption-header {
+    padding: 96px 0 126px;
+}
+
+.caption-header h2 {
+    font-size: calc(30px + .5vw);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #101750;
+}
+
+.caption-header ul {
+    margin: 5px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.caption-header li {
+    display: inline-block;
+}
+
+.caption-header a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    margin-right: 5px;
+    color: black;
+}
+
+.caption-header a:hover {
+    color: #FB2E86;
+}

@@ -1,0 +1,117 @@
+.container-fluid {    
+    min-height: 764px;
+}
+
+.main-slider-part1 {
+    position: relative;
+}
+
+.main-slider-part1 .img {
+    position: absolute;
+    left: -367px;
+}
+
+.main-slider-part1 .img .pink-dot {
+    position: absolute;
+    top: 483px;
+    left: 120px;
+    width: 15px;
+    height: 15px;
+    background-color: #FB2E86;
+    border-radius: 50%;
+}
+
+.main-slider-text {
+    margin: 203px 0;
+}
+
+.main-slider-text p:first-of-type {
+    color: #FB2E86;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: calc(12px + 0.18vw);
+    margin-bottom: 12px;
+}
+
+.main-slider-text h1 {
+    /* font-size: 53px;
+    font-size: 2.867965367965368vw; */
+    font-size: calc(30px + 1vw);
+    letter-spacing: 0.015em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.main-slider-text p:last-of-type {
+    color: #8A8FB9;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-size: calc(12px + 0.18vw);
+    margin-bottom: 27px;
+}
+
+.main-image {
+    position: relative;
+    top: 39px;
+}
+
+.pale-pink-circle {
+    position: absolute;
+    width: 651px;
+    height: 651px;
+    background: rgba(236, 210, 250, 0.35);
+    border-radius: 50%;
+}
+
+.pale-pink-circle:last-of-type {
+    top: 41px;
+    left: -55px;
+}
+
+.main-image img:first-of-type {
+    position: absolute;
+    top: 60px;
+    left: -45px;
+    z-index: 10;
+    height: 629px;
+}
+
+.main-image img:last-of-type {
+    position: absolute;
+    top: 60px;
+    left: 505px;
+    z-index: 10;
+}
+
+.row {
+    position: relative;
+}
+
+.slider-indicators {
+    position: absolute;
+    left: calc(50% - 50px);
+    width: 100px;
+    top: 696px;
+    z-index: 15;
+}
+
+.slider-indicators .pink-square{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FB2E86;
+    transform: rotate(-45deg);
+}
+
+.slider-indicators .pink-square:hover{
+    background-color: #FB2E86;
+    cursor: pointer;
+}
+
+.slider-indicators .pink-square:nth-of-type(2){
+    margin: 0 15px;
+}
+
