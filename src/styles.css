@@ -10,6 +10,13 @@ font-family: 'Lato', sans-serif; */
     background-color: #F2F0FF;
 }
 
+.dropdown-toggle::after {
+    margin: 0;
+    content: "";
+    border: none;
+    vertical-align: 0;
+}
+
 .pink-btn {
     box-sizing: border-box;
     height: 50px;
@@ -26,6 +33,8 @@ font-family: 'Lato', sans-serif; */
     font-size: 17px;
     letter-spacing: 0.02em;
 }
+
+/*  ================= may be remover to its component ============== */
 
 .header-back {    
     height: 286px;
@@ -65,3 +74,5 @@ font-family: 'Lato', sans-serif; */
 .caption-header a:hover {
     color: #FB2E86;
 }
+
+/*  ================= may be remover to its component ============== */

@@ -3,11 +3,47 @@
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 16px;
     color: #F1F1F1;
     padding: 14px 0;
 }
 
-.violet span {
+.header-info span {
     margin-right: 50px;
+}
+
+.header-info img {
+    margin-right: 12px;
+}
+/* 
+.col-lg-6 {
+    position: relative;
+} */
+
+.user-settings {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* position: absolute;
+    right: 0; */
+}
+
+.user-settings li{
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.user-settings li:last-of-type{
+    margin-left: 29px;
+}
+
+.dropdown-toggle {
+    padding: 0;
+}
+
+.user-settings a{
+    color: white;
+}
+
+.user-settings img {
+    margin-bottom: 10px;
 }

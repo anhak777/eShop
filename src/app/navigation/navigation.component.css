@@ -28,12 +28,12 @@
     font-size: 34px;
 }
 
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
     margin: 0;
     content: "";
     border: none;
     vertical-align: 0;
-}
+} */
 
 .dropdown-toggle {
     position: relative;
