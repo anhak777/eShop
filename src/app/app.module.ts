@@ -14,11 +14,14 @@ import { ShopGridDefaultComponent } from './shop-grid-default/shop-grid-default.
 import { ShopListComponent } from './shop-list/shop-list.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { UpperNavComponent } from './upper-nav/upper-nav.component';
+import { SharedModule } from './Shared/shared.module';
+import { HomeComponent } from './home/home.component';
 
 
 
 const appRoutes: Routes =[
   { path: '', component: MainSliderComponent},
+  //{ path: 'home', component: HomeComponent},
   { path: 'pages', component: ShopGridDefaultComponent},
   { path: 'products', component: ShopListComponent},
 
@@ -37,14 +40,16 @@ const appRoutes: Routes =[
     ShopGridDefaultComponent,
     ShopListComponent,
     NotFoundComponent,
-    UpperNavComponent
+    UpperNavComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

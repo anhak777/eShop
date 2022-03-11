@@ -4,7 +4,7 @@
     font-weight: 600;
     font-size: 16px;
     color: #F1F1F1;
-    padding: 14px 0;
+    padding: 10px 0;
 }
 
 .header-info span {
@@ -45,5 +45,21 @@
 }
 
 .user-settings img {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
+
+.dropdown-menu {
+    margin-top: 15px;
+    border-radius: 0;
+    border: 2px solid #E7E6EF;
+    border-top: none;
+}
+
+.dropdown-menu a{
+    color: #7E33E0;
+}
+
+.dropdown-menu a:hover{
+    color: #FB2E86;
+}
+
