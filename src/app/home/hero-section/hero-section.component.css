@@ -1,0 +1,49 @@
+.image{
+    position: relative;
+}
+
+
+.carousel-text{
+    position: absolute;
+    z-index: 100;
+    margin-top: 180px;
+    margin-left: 20vw;
+    
+}
+
+.label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FB2E86;
+    margin-bottom: 12px;
+}
+
+h1{
+    font-family: 'Lato';
+    font-style: bold;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.main-text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 500px;
+    margin-bottom: 24px;
+}
+
+.cta {
+    width: 163px;
+    height: 50px;
+    background: #FB2E86;
+    border-radius: 2px;
+    border: none;
+    color: white;
+}

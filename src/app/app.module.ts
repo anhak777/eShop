@@ -11,6 +11,8 @@ import { BlogComponent } from './blog/blog.component';
 import { ShopComponent } from './shop/shop.component';
 import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { HeadingBarComponent } from './heading-bar/heading-bar.component';
+import { HeroSectionComponent } from './home/hero-section/hero-section.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
     BlogComponent,
     ShopComponent,
     ContactComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    HeadingBarComponent,
+    HeroSectionComponent
   ],
   imports: [
     BrowserModule,

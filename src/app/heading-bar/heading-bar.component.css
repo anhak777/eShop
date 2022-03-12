@@ -1,0 +1,60 @@
+.navbar{
+    height: 44px;
+    background-color: #7E33E0;
+}
+
+ul li a {
+    color:#F1F1F1;
+}
+
+.header-text{
+    color: #F1F1F1;
+}
+
+.envelope_icon{
+    background-image: url("./img/uil_envelope-alt.svg");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.phone_icon{
+    background-image: url("./img/bx_bx-phone-call.svg");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.login_icon{
+    background-image: url("./img/carbon_user.svg");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    margin-top: 11px;
+}
+
+.heart_icon{
+    background-image: url("./img/uil_heart-alt.svg");
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    margin-top: 11px;
+}
+
+.cart_icon{
+    background-image: url("./img/fluent_cart-24-regular.svg");
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: 8px;
+    
+}
+
