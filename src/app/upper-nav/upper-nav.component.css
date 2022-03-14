@@ -63,3 +63,6 @@
     color: #FB2E86;
 }
 
+.user-settings a {
+    text-decoration: none;
+}
