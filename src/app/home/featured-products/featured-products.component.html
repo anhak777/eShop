@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Featured Products</h1>
+    <div class="product-cards">
+        <div class="card" style="width: 16.8rem;" *ngFor="let card of productCards">
+            <img class="card-img-top" src="{{card.src}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{card.name}}</h5>
+              <p class="card-code">Code - {{card.code}} </p>
+              <h3 class="card-price">{{card.price}}</h3>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>

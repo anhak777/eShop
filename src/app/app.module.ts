@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HeadingBarComponent } from './heading-bar/heading-bar.component';
 import { HeroSectionComponent } from './home/hero-section/hero-section.component';
+import { FeaturedProductsComponent } from './home/featured-products/featured-products.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HeroSectionComponent } from './home/hero-section/hero-section.component
     ContactComponent,
     NotFoundComponent,
     HeadingBarComponent,
-    HeroSectionComponent
+    HeroSectionComponent,
+    FeaturedProductsComponent
   ],
   imports: [
     BrowserModule,
