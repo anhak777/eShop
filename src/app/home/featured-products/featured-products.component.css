@@ -26,10 +26,10 @@ h1 {
     display: none;
 }
 
-.card-body:hover{
+/* .card-body:hover{
     background-color: #2F1AC4;
     
-}
+} */
 
 .card-body{
     padding-top: 16px;
