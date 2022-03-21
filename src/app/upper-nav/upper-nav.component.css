@@ -14,17 +14,11 @@
 .header-info img {
     margin-right: 12px;
 }
-/* 
-.col-lg-6 {
-    position: relative;
-} */
 
 .user-settings {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* position: absolute;
-    right: 0; */
 }
 
 .user-settings li{

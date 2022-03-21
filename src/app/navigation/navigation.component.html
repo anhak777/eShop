@@ -1,53 +1,40 @@
 <div class="container-fluid">
-    <div class="container-xl">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#" routerLink="">Hekto</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Home<span>⌄</span> 
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">About Us</a></li>
-                          <li><a class="dropdown-item" href="#">Shipping</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">FAQ</a></li>
-                        </ul>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" routerLink="/pages">Pages</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" routerLink="/products">Pruducts</a>
-                  </li>                  
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">
-                    <!-- <span class="material-icons">
+  <div class="container-xl">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" routerLink="">Hekto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" [ngClass]="{'dropdown': item.subMenu}" *ngFor="let item of menu">
+              <a class="nav-link" [ngClass]="{'dropdown-toggle': item.subMenu}" [routerLink]="item.path"
+                routerLinkActive="active">{{item.title | titlecase}}
+                <span *ngIf="item.subMenu">⌄</span>
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" *ngIf="item.subMenu">
+                <li *ngFor="let subitem of item.subMenu"><a class="dropdown-item"
+                    [routerLink]="subitem.path">{{subitem.title | titlecase}}</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+              <!-- <span class="material-icons">
                     search
                     </span> -->
-                    <!-- <i class="fa fa-search"></i> -->
-                    <img src="../../assets/icons/Loupe.svg" alt="">
-                  </button>
-                </form>
-              </div>
-            </div>
-          </nav>
-        
-    </div>
+              <!-- <i class="fa fa-search"></i> -->
+              <img src="../../assets/icons/Loupe.svg" alt="">
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </div>
 </div>

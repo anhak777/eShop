@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 
-import { Routes, RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -19,19 +18,6 @@ import { HomeComponent } from './home/home.component';
 
 
 
-const appRoutes: Routes =[
-  { path: '', component: MainSliderComponent},
-  //{ path: 'home', component: HomeComponent},
-  { path: 'pages', component: ShopGridDefaultComponent},
-  { path: 'products', component: ShopListComponent},
-
-
-
-  { path: '**', component: NotFoundComponent }
-];
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,13 +27,12 @@ const appRoutes: Routes =[
     ShopListComponent,
     NotFoundComponent,
     UpperNavComponent,
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
     SharedModule
   ],

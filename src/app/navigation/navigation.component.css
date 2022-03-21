@@ -24,16 +24,6 @@
     border-top: none;
 }
 
-.navbar-brand {
-    margin-right: 88px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #0D0E43;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 34px;
-    padding: 0;
-}
-
 /* .dropdown-toggle::after {
     margin: 0;
     content: "";
@@ -62,7 +52,7 @@
 
 #navbarSupportedContent {
     margin-top: 0 !important;
-    padding: 0 0 0 20px !important;
+    padding: 10px !important;
 }
 
 .me-2 {
@@ -87,3 +77,8 @@
     margin-top: -2.5px;
     margin-left: -2px;
 }
+
+#navbarSupportedContent .nav-item:hover .dropdown-menu, #navbarSupportedContent .nav-item .dropdown-item:hover .dropdown-menu{
+    display: block;
+} 
+   /* Todo fix dropdown  */
