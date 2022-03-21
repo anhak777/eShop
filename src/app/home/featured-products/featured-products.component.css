@@ -20,16 +20,43 @@ h1 {
 .card{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     border-style: none;
+    position: relative;
+    
 }
 
 .btn{
+    
     display: none;
+    position: absolute;
+    margin-top: 14vw;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    padding: 12px 13px;  
+    background-color: #08D15F;
+    color: white;
+    border-style: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px
 }
 
-/* .card-body:hover{
+.card:hover {
     background-color: #2F1AC4;
-    
-} */
+    transition: 0.3s linear;
+}
+
+.card:hover .card-title, .card:hover .card-code, .card:hover .card-price{
+    color: white;
+    transition: 0.3s linear;
+}
+
+.card:hover .icon, .card:hover .btn{
+    display: block;
+    transition: 3s linear;
+}
 
 .card-body{
     padding-top: 16px;
@@ -66,3 +93,17 @@ h1 {
     color: #151875;
     text-align: center;
 }
+
+.actions{
+    position: absolute;
+    
+   
+}
+
+.icon{
+    display: none;
+    margin-left: 16px;
+    margin-top: 8px;
+
+}
+

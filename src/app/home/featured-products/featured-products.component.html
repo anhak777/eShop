@@ -2,12 +2,24 @@
     <h1>Featured Products</h1>
     <div class="product-cards">
         <div class="card" style="width: 16.8rem;" *ngFor="let card of productCards">
+            <div class="actions d-flex flex-row">
+                <div class="cart-icon icon">
+                    <img src="../../../assets/img/cart-icon.svg" alt="cart-icon">
+                </div>
+                <div class="heart-icon icon">
+                    <img src="../../../assets/img/heart-icon.svg" alt="cart-icon">
+                </div>
+                <div class="zoom-icon icon">
+                    <img src="../../../assets/img/zoom-icon.svg" alt="cart-icon">
+                </div>
+            </div>
+            
             <img class="card-img-top" src="{{card.src}}" alt="Card image cap">
+            <a href="#" class="btn btn-primary">View Details</a>
             <div class="card-body">
               <h5 class="card-title">{{card.name}}</h5>
               <p class="card-code">Code - {{card.code}} </p>
               <h3 class="card-price">{{card.price}}</h3>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
     </div>

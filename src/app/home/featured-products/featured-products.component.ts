@@ -29,16 +29,16 @@ export class FeaturedProductsComponent implements OnInit , AfterViewInit {
     //https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll#accessing_the_matches
     
 
-    const cardBody = document.querySelector('.card-body') as HTMLElement;
-    const cardTitle = document.querySelector('.card-title') as HTMLElement;
-    const cardPrice = document.querySelector('.card-price') as HTMLElement;
+    // const cardBody = document.querySelector('.card-body') as HTMLElement;
+    // const cardTitle = document.querySelector('.card-title') as HTMLElement;
+    // const cardPrice = document.querySelector('.card-price') as HTMLElement;
 
-    [cardBody, cardTitle, cardPrice].forEach(card => {
-      card.addEventListener('mouseover', (e: Event) =>{
-        e.style.color = 'red'
+    // [cardBody, cardTitle, cardPrice].forEach(card => {
+    //   card.addEventListener('mouseover', (e: Event) =>{
+    //     e.style.color = 'red'
         
-      })
-    })
+    //   })
+    // })
 
     // const cards = document.querySelectorAll('.card-body.card-title') as NodeListOf<Element>
   
