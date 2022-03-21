@@ -1,0 +1,24 @@
+.featured-products {
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    color: #1A0B5B;
+    margin: 130px 0 50px;
+    font-weight: 700;
+}
+
+.pink-line {
+    background: #FEBAD7;
+    border-radius: 10px;
+    width: 16px;
+    height: 4px;
+    /* border: none; */
+}
+
+.carousel-indicators .active {
+    background: #FB2E86;
+    width: 24px;
+}

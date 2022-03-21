@@ -94,28 +94,37 @@
     position: relative;
 }
 
-.slider-indicators {
+.carousel-indicators {
     position: absolute;
-    left: calc(50% - 50px);
+    left: calc(50% - 270px);
     width: 100px;
     top: 696px;
     z-index: 15;
 }
 
-.slider-indicators .pink-square{
+.carousel-indicators [data-bs-target] {
+    opacity: 1 !important;
+}
+
+.carousel-indicators .pink-square{
     display: inline-block;
     width: 10px;
     height: 10px;
     border: 1px solid #FB2E86;
     transform: rotate(-45deg);
+    background: #F2F0FF;
 }
 
-.slider-indicators .pink-square:hover{
+.carousel-indicators .active {
+    background: #FB2E86;
+}
+
+.carousel-indicators .pink-square:hover{
     background-color: #FB2E86;
     cursor: pointer;
 }
 
-.slider-indicators .pink-square:nth-of-type(2){
+.carousel-indicators .pink-square:nth-of-type(2){
     margin: 0 15px;
 }
 
