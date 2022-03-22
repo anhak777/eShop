@@ -15,6 +15,13 @@ import { SharedModule } from './Shared/shared.module';
 import { HomeComponent } from './home/home.component';
 import { FeaturedProductsComponent } from './home/featured-products/featured-products.component';
 import { LatestProductsComponent } from './home/latest-products/latest-products.component';
+import { WhatWeOfferComponent } from './home/what-we-offer/what-we-offer.component';
+import { UniqueFeaturesComponent } from './home/unique-features/unique-features.component';
+import { TrendingProductsComponent } from './home/trending-products/trending-products.component';
+import { DiscountItemComponent } from './home/discount-item/discount-item.component';
+import { TopCategoriesComponent } from './home/top-categories/top-categories.component';
+import { SubscribeUsComponent } from './home/subscribe-us/subscribe-us.component';
+import { LatestBlogComponent } from './home/latest-blog/latest-blog.component';
 
 
 
@@ -27,7 +34,14 @@ import { LatestProductsComponent } from './home/latest-products/latest-products.
     NotFoundComponent,
     HomeComponent,
     FeaturedProductsComponent,
-    LatestProductsComponent
+    LatestProductsComponent,
+    WhatWeOfferComponent,
+    UniqueFeaturesComponent,
+    TrendingProductsComponent,
+    DiscountItemComponent,
+    TopCategoriesComponent,
+    SubscribeUsComponent,
+    LatestBlogComponent
   ],
   imports: [
     BrowserModule,

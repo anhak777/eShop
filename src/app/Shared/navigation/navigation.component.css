@@ -37,7 +37,10 @@
 
 .dropdown-toggle span {
     position: inherit;
-    bottom: 4px;
+}
+
+.dropdown-toggle span:before {
+    font-size: 10px;
 }
 
 .navbar-nav a {

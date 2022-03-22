@@ -12,20 +12,19 @@
           <!-- ========================================================================== -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item" [ngClass]="{'dropdown': item.subMenu}" *ngFor="let item of menu">
-              <a href="" class="nav-link" [ngClass]="{'dropdown-toggle': item.subMenu}" [routerLink]="item.path"
+              <a href="" class="nav-link" [ngClass]="{'dropdown-toggle': item.subMenu}" [routerLink]="[item.path]"
                 routerLinkActive="active">{{item.title | titlecase}}
-                <span *ngIf="item.subMenu">⌄</span>
+                <span *ngIf="item.subMenu" class=" icon-Arrow-down"></span>
               </a>
 
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown" *ngIf="item.subMenu">
                 <li *ngFor="let subitem of item.subMenu">
-                  <a href="" class="dropdown-item" [routerLink]="subitem.path">{{subitem.title | titlecase}}</a>
+                  <a href="" class="dropdown-item" [routerLink]="[subitem.path]">{{subitem.title | titlecase}}</a>
                 </li>
               </ul>
             </li>
           </ul>
           <!-- ========================================================================== -->
-
 
           <form class="d-flex">
             <input class="form-control me-2" type="search" aria-label="Search">

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('assets/fonts/icomoon.ttf?cww57f') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-View02:before {
+  content: "\e900";
+}
+.icon-View01:before {
+  content: "\e901";
+}
+.icon-User-silver:before {
+  content: "\e902";
+}
+.icon-User:before {
+  content: "\e903";
+}
+.icon-Star-silver:before {
+  content: "\e904";
+}
+.icon-Star-golden:before {
+  content: "\e905";
+}
+.icon-Shopping-cart:before {
+  content: "\e906";
+}
+.icon-Phone:before {
+  content: "\e907";
+}
+.icon-Pen-tip:before {
+  content: "\e908";
+}
+.icon-OK:before {
+  content: "\e909";
+}
+.icon-Mail:before {
+  content: "\e90a";
+}
+.icon-Loupe:before {
+  content: "\e90b";
+}
+.icon-Lopue-blue:before {
+  content: "\e90c";
+}
+.icon-Heart:before {
+  content: "\e90d";
+}
+.icon-Blob-silver:before {
+  content: "\e90f";
+}
+.icon-Arrow-right:before {
+  content: "\e910";
+}
+.icon-Arrow-left:before {
+  content: "\e911";
+}
+.icon-Arrow-down:before {
+  content: "\e912";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}

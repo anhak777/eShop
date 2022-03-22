@@ -2,18 +2,8 @@
     <div class="featured-product-box" *ngFor="let item of prodInfo">
         <div class="image-container">
             <div class="icon-wrapper">
-                <ul>
-                    <li><a href="">
-                        <img src="../../../assets/icons/Shopping-cart-blue.svg" alt="cart">
-                    </a></li>
-                    <li><a href="">
-                        <img src="../../../assets/icons/Heart-blue.svg" alt="wish">
-                    </a></li>
-                    <li><a href="">
-                        <img src="../../../assets/icons/Lopue-blue.svg" alt="enlarge">
-                    </a></li>
-                </ul>
-            </div>
+                <app-product-options></app-product-options>
+            </div>            
             <img src="{{item.src}}" alt="chair" class="chair-img">
             <button class="pink-btn"><a href="">View Details</a></button>
         </div>

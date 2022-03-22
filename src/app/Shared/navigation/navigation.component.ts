@@ -10,11 +10,10 @@ export class NavigationComponent implements OnInit {
   constructor() { }
   public menu = [
 
-    {
-      "title": "home", "path": "home",
+    {"title": "home", "path": "home",
       "subMenu": [
         { "title": "about us", "path": "about-us", },
-        { "title": "Shipping", "path": "shipping" },
+        { "title": "shipping", "path": "shipping" },
         { "title": "FAQ", "path": "faq" }
       ]
     },

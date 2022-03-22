@@ -28,27 +28,11 @@
     font-size: 14px;
 }
 
-
 .featured-product-box .image-container .icon-wrapper {
     position: absolute;
-    top: 11px;
+    top: 9px;
     left: 11px;
     display: none;
-}
-
-.featured-product-box .image-container .icon-wrapper ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} 
-
-.featured-product-box .image-container .icon-wrapper ul li{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 8px;
-    padding: 2px 2px 0 0;
 }
 
 .featured-product-box .info-container {
@@ -123,10 +107,6 @@
 
 .featured-product-box:hover .image-container .chair-img{
     height: calc(100% - 17px);
-}
-
-.featured-product-box .image-container .icon-wrapper ul li:hover{
-    background-color: #EEEFFB ;
 }
 
 .featured-product-box:hover .info-container {
