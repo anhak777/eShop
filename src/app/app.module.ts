@@ -14,6 +14,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { SharedModule } from './Shared/shared.module';
 import { HomeComponent } from './home/home.component';
 import { FeaturedProductsComponent } from './home/featured-products/featured-products.component';
+import { LatestProductsComponent } from './home/latest-products/latest-products.component';
 
 
 
@@ -25,7 +26,8 @@ import { FeaturedProductsComponent } from './home/featured-products/featured-pro
     ShopListComponent,
     NotFoundComponent,
     HomeComponent,
-    FeaturedProductsComponent
+    FeaturedProductsComponent,
+    LatestProductsComponent
   ],
   imports: [
     BrowserModule,

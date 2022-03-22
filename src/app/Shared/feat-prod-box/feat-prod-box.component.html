@@ -1,17 +1,31 @@
-<div class="col-xl-3 col-md-6">
-    <div class="featured-product-box">
+<div class="col">
+    <div class="featured-product-box" *ngFor="let item of prodInfo">
         <div class="image-container">
-            <img src="../../../assets/img/feat-prod-01.png" alt="">
+            <div class="icon-wrapper">
+                <ul>
+                    <li><a href="">
+                        <img src="../../../assets/icons/Shopping-cart-blue.svg" alt="cart">
+                    </a></li>
+                    <li><a href="">
+                        <img src="../../../assets/icons/Heart-blue.svg" alt="wish">
+                    </a></li>
+                    <li><a href="">
+                        <img src="../../../assets/icons/Lopue-blue.svg" alt="enlarge">
+                    </a></li>
+                </ul>
+            </div>
+            <img src="{{item.src}}" alt="chair" class="chair-img">
+            <button class="pink-btn"><a href="">View Details</a></button>
         </div>
         <div class="info-container">
-            <h6>Cantilever chair</h6>
+            <h6>{{item.name}}</h6>
             <div class="color-lines">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-            <p>Code - Y523201</p>
-            <p>$42.00</p>
+            <p>Code - {{item.code}}</p>
+            <p>{{item.price}}</p>
         </div>
     </div>
 </div>

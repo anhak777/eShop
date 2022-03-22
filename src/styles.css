@@ -45,6 +45,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     letter-spacing: 0.02em;
 }
 
+.main-page-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    color: #151875;
+    margin: 130px 0 0 0;
+    font-weight: 700;
+}
+
 /*  ================= may be removed to its component ============== */
 
 .header-back {    
