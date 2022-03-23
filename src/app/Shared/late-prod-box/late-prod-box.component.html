@@ -1,10 +1,17 @@
-<div class="col-xl-4">
-    <div class="latest-product-box">
-        <div class="image-container">
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        </div>
-        <div class="info-container">
-
+<div class="row">
+    <div class="col" *ngFor="let item of chairInfo">
+        <div class="latest-product-box" >
+            <div class="image-container">
+                <img src="../../../assets/graphics/Sale.svg" alt="sale" class="sale">
+                <img src="{{item.src}}" alt="chair">
+                <div class="icon-wrapper">
+                    <app-product-options></app-product-options>
+                </div> 
+            </div>
+            <div class="info-container">
+                <p class="">{{item.name}}</p>
+                <p class="">{{item.newPrice}}<span>{{item.oldPrice}}</span></p>
+            </div>
         </div>
     </div>
 </div>

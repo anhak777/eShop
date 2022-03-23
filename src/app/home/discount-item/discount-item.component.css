@@ -1,0 +1,42 @@
+.main-page-header {
+    margin-top: 70px;
+}
+
+.products-menu {
+    margin-top: 15px;
+}
+
+.products-menu ul li{
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+}
+
+.products-menu ul li span{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #FB4997;
+    border-radius: 50%;
+    top: 12.7px;
+    right: -10px;
+    display: none;
+    position: absolute;
+}
+
+.products-menu ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #151875;
+}
+
+.products-menu ul li a:hover {
+    text-decoration: underline;
+    color: #FB2E86;
+}
+
+.products-menu ul li:hover span{
+    display: inline-block;
+}

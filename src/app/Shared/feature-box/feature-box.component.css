@@ -1,0 +1,30 @@
+.feature-box {
+    box-sizing: border-box;
+    width: 270px; 
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    text-align: center;
+    padding: 65px 26px 0;
+    margin: 65px 14px;
+}
+
+.feature-box .feat-icon{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+
+.feature-box h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #151875;
+    margin: 20px 0 15px;
+}
+
+.feature-box p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(26, 11, 91, 0.3);
+}

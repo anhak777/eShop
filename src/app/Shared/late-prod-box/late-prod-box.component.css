@@ -1,0 +1,80 @@
+.latest-product-box {
+    box-sizing: border-box;
+    width: 360px;
+    margin: 55px 18px 62px;
+}
+
+.latest-product-box .image-container{
+    box-sizing: border-box;
+    background: #F7F7F7;
+    height: 270px;
+    text-align: center;
+    position: relative;
+}
+
+.latest-product-box .image-container img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.latest-product-box .image-container .sale {
+    position: absolute;
+    z-index: 2;
+    top: 45px;
+    left: 10px;
+    display: none;
+}
+
+.latest-product-box .image-container .icon-wrapper {
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+    color: #2F1AC4;
+    display: none;
+}
+
+.latest-product-box .info-container {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #151875;
+    position: relative;
+}
+
+.latest-product-box .info-container p{
+    display: inline-block;
+}
+
+.latest-product-box .info-container p:first-of-type {
+    font-size: 16px;
+    border-bottom: 2px solid #EEEFFB;
+    margin-top: 16px;
+}
+
+.latest-product-box .info-container p:last-of-type {
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    margin-top: 17px;
+}
+
+.latest-product-box .info-container p:last-of-type span {
+    font-size: 12px;
+    color: #FB2448;
+    text-decoration: line-through;
+    margin: 0 18px 0 8px;
+}
+
+
+/* =============================== :hover =========================== */
+
+.latest-product-box:hover .image-container {
+    background: white;
+} 
+
+.latest-product-box:hover .image-container .sale {
+    display: block;
+}
+
+.latest-product-box:hover .image-container .icon-wrapper {
+    display: block;
+}

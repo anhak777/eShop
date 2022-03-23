@@ -1,0 +1,21 @@
+.trending-product-box {
+    width: 270px;
+    padding: 11px;
+    text-align: center;
+}
+
+.trending-product-box .image-container {
+    background: #F5F6F8;
+    width: 247px;
+    height: 244px;
+      
+}
+
+.trending-product-box .image-container img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+

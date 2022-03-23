@@ -1,0 +1,22 @@
+.main-page-header {
+    font-size: 35px;
+    line-height: 155%;
+    letter-spacing: 0.015em;
+    margin: 0;
+}
+
+.back-img {
+    background-image: url("../../../assets/img/background-img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 174px 0 103px;
+}
+
+.pink-btn {
+    margin-top: 28px;
+}
+
+.wrapper-img {
+    padding: 96px 0;
+}

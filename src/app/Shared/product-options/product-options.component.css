@@ -6,18 +6,18 @@ ul{
 
 
 ul li{
-    display: inline-block;
+    display: inherit;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: 8px;
+    margin: 4px;
     text-align: center;
     padding: 5px 2px 0 0;
 }
 
 ul li a {
     text-decoration: none;
-    color: #1DB4E7;
+    color: inherit;
 }
 
 ul li:hover{

@@ -1,0 +1,72 @@
+.container-fluid {
+    background: #F1F0FF;
+    padding: 15px 12px;
+}
+
+.unique-feature .text-container h2 {
+    font-size: calc(22px + 1vw);
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.015em;
+    color: #151875;
+    font-weight: 700;
+    margin-top: 82px;
+}
+
+.unique-feature .text-container ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.015em;
+    color: #ACABC3;
+    margin: 30px 0;
+}
+
+.unique-feature .text-container ul li {
+    line-height: 175%;
+    margin-top: 13px;
+}
+
+.unique-feature .text-container ul li span{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.unique-feature .text-container ul li:first-of-type span {
+    background: #F52B70;
+}
+
+.unique-feature .text-container ul li:nth-of-type(2) span {
+    background: #2B2BF5;
+}
+
+.unique-feature .text-container ul li:last-of-type span {
+    background: #2BF5CC;
+}
+
+.unique-feature .text-container .wrapper {
+    margin: 50px 0;
+    height: 100px;
+}
+
+.unique-feature .text-container .wrapper button {
+    padding: 10px 24px;
+    width: 157px;
+    height: 45px;
+}
+
+.unique-feature .text-container .wrapper .sofa-info {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #151875;
+    margin-left: 19px;
+}
+
+.unique-feature .text-container .wrapper .sofa-info p span{
+    font-family: 'Lato', sans-serif;
+    color: #151875;
+}
