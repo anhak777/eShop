@@ -1,0 +1,22 @@
+.carousel-inner {
+    padding-bottom: 20px;
+}
+
+.pink-dot {
+    background: #FEBAD7;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FB2E86;
+    background: transparent;
+    margin: 0 6px;
+}
+
+.carousel-indicators .active {
+    background: #FB2E86;
+}
+
+
+.tc-box-wrapper{
+    padding: 50px 20px 30px 20px;
+}

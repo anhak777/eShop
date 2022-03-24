@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-late-blog-box',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./late-blog-box.component.css']
 })
 export class LateBlogBoxComponent implements OnInit {
+
+  @Input() blogInfo;
 
   constructor() { }
 

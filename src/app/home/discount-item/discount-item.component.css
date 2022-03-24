@@ -1,5 +1,5 @@
 .main-page-header {
-    margin-top: 70px;
+    margin-top: 108px;
 }
 
 .products-menu {
@@ -39,4 +39,64 @@
 
 .products-menu ul li:hover span{
     display: inline-block;
+}
+
+.all-discount .text-cont {
+    text-align: left;
+}
+
+.all-discount .text-cont h2 {
+    font-size: calc(22px + 1vw);
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.015em;
+    color: #151875;
+    font-weight: 700;
+    margin-top: 111px;
+}
+
+.all-discount .text-cont h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.015em;
+    color: #FB2E86;
+    margin-top: 16px;
+}
+
+.all-discount .text-cont p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #B7BACB;
+    margin: 15px 0 10px;
+}
+
+.all-discount .text-cont .benefits .left-side {
+    margin-right: 48px;
+}
+
+.all-discount .text-cont .benefits p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #B8B8DC;
+}
+
+.all-discount .text-cont .benefits p span {
+    color: #7569B2;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.all-discount .pink-btn {
+    width: 200px;
+    height: 57px;
+    margin-top: 37px;
+}
+
+.all-discount .img-cont img {
+    margin-top: -30px;
 }

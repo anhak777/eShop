@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-prod-on-sale-box',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prod-on-sale-box.component.css']
 })
 export class ProdOnSaleBoxComponent implements OnInit {
+
+  @Input() saleInfo;
 
   constructor() { }
 

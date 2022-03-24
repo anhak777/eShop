@@ -1,12 +1,12 @@
 <div class="row">
-    <div class="col">
+    <div class="col-xl-3 col-md-6" *ngFor="let item of trendInfo">
         <div class="trending-product-box" >
             <div class="image-container">
-                <img src="../../../assets/img/trend-prod-01.png" alt="chair">
+                <img src="{{item.src}}" alt="chair">
             </div>
             <div class="info-container">
-                <p class="">Cantilever chair</p>
-                <p class="">$26.00 <span>$42.00</span></p>
+                <p class="">{{item.name}}</p>
+                <p class="">{{item.newPrice}} <span>{{item.oldPrice}}</span></p>
             </div>
         </div>
     </div>

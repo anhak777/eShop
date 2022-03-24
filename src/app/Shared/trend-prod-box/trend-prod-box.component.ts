@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-trend-prod-box',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./trend-prod-box.component.css']
 })
 export class TrendProdBoxComponent implements OnInit {
+
+  @Input() trendInfo;
 
   constructor() { }
 

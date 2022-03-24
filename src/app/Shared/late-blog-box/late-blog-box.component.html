@@ -1,1 +1,24 @@
-<p>late-blog-box works!</p>
+<div class="row">
+    <div class="col-xl-4" *ngFor="let item of blogInfo">
+        <div class="latest-blog-box">
+            <div class="img-container">
+                <img src="{{item.src}}" alt="">
+            </div>
+            <div class="art-info-container">
+                <div class="blog-info d-flex">
+                    <div class="nickname">
+                        <img src="../../../assets/icons/Pen-tip.svg" alt="pen">
+                        <span>{{item.nick}}</span>
+                    </div>
+                    <div class="date">
+                        <img src="../../../assets/icons/Calendar.svg" alt="calendar">
+                        <span>{{item.date}}</span>
+                    </div>
+                </div>
+                <h5>{{item.title}}</h5>
+                <p>{{item.descript}}</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>

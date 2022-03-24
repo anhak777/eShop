@@ -1,7 +1,9 @@
 .trending-product-box {
     width: 270px;
     padding: 11px;
+    margin: 40px 0;
     text-align: center;
+    box-shadow: 0px 8px 40px rgb(49 32 138 / 5%);
 }
 
 .trending-product-box .image-container {
@@ -17,5 +19,28 @@
     transform: translateY(-50%);
 }
 
+.info-container {
+    text-align: center;
+    color: #151875;
+}
 
+.info-container p:first-of-type{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 15px 0 0 0 ;
+}
 
+.info-container p:last-of-type {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 8px 0 21px;
+}   
+
+.info-container p:last-of-type span {
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: rgba(21, 24, 117, 0.3);
+    margin-left: 12px;
+}

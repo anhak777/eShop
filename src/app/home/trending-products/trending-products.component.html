@@ -1,10 +1,51 @@
 <div class="container-fluid">
     <div class="container-xl center-header">
         <h2 class="main-page-header">Trending Products</h2>
-        <app-trend-prod-box></app-trend-prod-box> <!-- this has row in it -->
+        <app-trend-prod-box [trendInfo]="trendInfo"></app-trend-prod-box> <!-- this has row in it -->
         <div class="row">
-            <app-prod-on-sale-box></app-prod-on-sale-box>
-            <app-prod-small-box></app-prod-small-box>
+            <div class="col-xxl-4 col-xl-5 col-lg-6">
+                <div class="discound-box light-pink">
+                    <h3>23% off in all products</h3>
+                    <a href="">Shop Now</a>
+                    <img src="../../../assets/img/clock.png" alt="">
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-5 col-lg-6">
+                <div class="discound-box light-blue">
+                    <h3>23% off in all products</h3>
+                    <a href="">View Collection</a>
+                    <img src="../../../assets/img/shelf.png" alt="">
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-2 col-lg-12 sb-wrapper">
+                <div class="small-box d-flex">
+                    <div class="img-wrapper">
+                        <img src="../../../assets/img/smol-chair-01.png" alt="chair">
+                    </div>
+                    <div class="text-wrapper">
+                        <h6>Executive Seat chair</h6>
+                        <span>$32.00</span>
+                    </div>
+                </div>
+                <div class="small-box d-flex">
+                    <div class="img-wrapper">
+                        <img src="../../../assets/img/smol-chair-02.png" alt="chair">
+                    </div>
+                    <div class="text-wrapper">
+                        <h6>Executive Seat chair</h6>
+                        <span>$32.00</span>
+                    </div>
+                </div>
+                <div class="small-box d-flex">
+                    <div class="img-wrapper">
+                        <img src="../../../assets/img/smol-chair-03.png" alt="chair">
+                    </div>
+                    <div class="text-wrapper">
+                        <h6>Executive Seat chair</h6>
+                        <span>$32.00</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -1,1 +1,15 @@
-<p>top-prod-box works!</p>
+<div class="row">
+    <div class="col-xl-3 col-md-6" *ngFor="let item of topInfo">
+        <div class="top-category-box">
+            <div class="purple-circle"></div>
+            <div class="img-wrapper">                
+                <img src="{{item.src}}" alt="">
+                <button class="pink-btn"><a href="#">View Shop</a></button>                
+            </div>
+            <div class="info-wrapper">
+                <h5>{{item.name}}</h5>
+                <span>{{item.price}}</span>
+            </div>
+        </div>
+    </div>
+</div>
