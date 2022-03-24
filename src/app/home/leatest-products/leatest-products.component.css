@@ -1,0 +1,30 @@
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 56px;
+}
+
+a {
+    color: #1A0B5B;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 48px;
+    color: #1A0B5B;
+}
+
+
+.rout-links{
+    margin-bottom: 56px;
+}
+
+.active_link{
+    color: #FB2E86;
+}

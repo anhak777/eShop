@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Leatest Products</h1>
+
+    <div class="rout-links">
+        <ul>
+            <li *ngFor = "let link of productLinks">
+                <a [routerLink]="link.path" routerLinkActive="active_link" >{{link.name}}</a>
+            </li>
+        </ul>
+    </div>
+    
+    <router-outlet></router-outlet>
+
+
+</div>

@@ -14,6 +14,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HeadingBarComponent } from './heading-bar/heading-bar.component';
 import { HeroSectionComponent } from './home/hero-section/hero-section.component';
 import { FeaturedProductsComponent } from './home/featured-products/featured-products.component';
+import { LeatestProductsComponent } from './home/leatest-products/leatest-products.component';
+import { NewArrivalComponent } from './home/leatest-products/new-arrival/new-arrival.component';
+import { BestSellerComponent } from './home/leatest-products/best-seller/best-seller.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { FeaturedProductsComponent } from './home/featured-products/featured-pro
     NotFoundComponent,
     HeadingBarComponent,
     HeroSectionComponent,
-    FeaturedProductsComponent
+    FeaturedProductsComponent,
+    LeatestProductsComponent,
+    NewArrivalComponent,
+    BestSellerComponent
   ],
   imports: [
     BrowserModule,

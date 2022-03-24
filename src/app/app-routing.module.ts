@@ -7,9 +7,25 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { PagesComponent } from './pages/pages.component';
 import { ProductsComponent } from './products/products.component';
 import { ShopComponent } from './shop/shop.component';
+import { NewArrivalComponent } from './home/leatest-products/new-arrival/new-arrival.component';
+import { BestSellerComponent } from './home/leatest-products/best-seller/best-seller.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent},
+  {path:'', 
+  component: HomeComponent,
+  children: [
+    {
+      path:'', redirectTo:'newarrival', pathMatch:'full'
+    },
+    {
+      path:'newarrival', component: NewArrivalComponent 
+    },
+    {
+      path:'bestseller', component: BestSellerComponent 
+    }
+  ]
+},
+
   {path:'pages', component: PagesComponent},
   {path:'products', component: ProductsComponent},
   {path:'blog', component: BlogComponent},
