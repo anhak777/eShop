@@ -1,7 +1,3 @@
-.container-fluid {    
-    min-height: 764px;
-}
-
 .main-slider-part1 {
     position: relative;
 }
@@ -35,8 +31,6 @@
 }
 
 .main-slider-text h1 {
-    /* font-size: 53px;
-    font-size: 2.867965367965368vw; */
     font-size: calc(30px + 1vw);
     letter-spacing: 0.015em;
     font-family: 'Josefin Sans', sans-serif;
@@ -99,6 +93,7 @@
 
 .carousel-indicators [data-bs-target] {
     opacity: 1 !important;
+    margin-bottom: 53px;
 }
 
 .carousel-indicators .pink-square{

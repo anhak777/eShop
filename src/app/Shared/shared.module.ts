@@ -9,18 +9,18 @@ import { LateProdBoxComponent } from './late-prod-box/late-prod-box.component';
 import { ProductOptionsComponent } from './product-options/product-options.component';
 import { FeatureBoxComponent } from './feature-box/feature-box.component';
 import { TrendProdBoxComponent } from './trend-prod-box/trend-prod-box.component';
-import { ProdOnSaleBoxComponent } from './prod-on-sale-box/prod-on-sale-box.component';
-import { ProdSmallBoxComponent } from './prod-small-box/prod-small-box.component';
 import { TopProdBoxComponent } from './top-prod-box/top-prod-box.component';
 import { LateBlogBoxComponent } from './late-blog-box/late-blog-box.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
-  declarations: [UpperNavComponent, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, ProdOnSaleBoxComponent, ProdSmallBoxComponent, TopProdBoxComponent, LateBlogBoxComponent],
+  declarations: [UpperNavComponent, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent],
   imports: [
-    CommonModule,    
+    CommonModule, 
+    RouterModule   
   ],
-  exports:[UpperNavComponent, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, ProdOnSaleBoxComponent, ProdSmallBoxComponent, TopProdBoxComponent, LateBlogBoxComponent]
+  exports:[UpperNavComponent, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent]
 })
 export class SharedModule { }

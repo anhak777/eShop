@@ -81,7 +81,12 @@
     margin-left: -2px;
 }
 
-#navbarSupportedContent .nav-item:hover .dropdown-menu, #navbarSupportedContent .nav-item .dropdown-item:hover .dropdown-menu{
+#navbarSupportedContent .nav-item:hover .dropdown-menu{
     display: block;
+    margin-top: -7px;
 } 
+
+#navbarSupportedContent .nav-item .dropdown-item:hover .dropdown-menu {
+    display: block;
+}
    /* Todo fix dropdown  */

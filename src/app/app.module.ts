@@ -22,6 +22,7 @@ import { DiscountItemComponent } from './home/discount-item/discount-item.compon
 import { TopCategoriesComponent } from './home/top-categories/top-categories.component';
 import { SubscribeUsComponent } from './home/subscribe-us/subscribe-us.component';
 import { LatestBlogComponent } from './home/latest-blog/latest-blog.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -48,7 +49,8 @@ import { LatestBlogComponent } from './home/latest-blog/latest-blog.component';
     FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule, 
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
