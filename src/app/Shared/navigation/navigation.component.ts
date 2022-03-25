@@ -11,7 +11,7 @@ export class NavigationComponent implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute) { }
   public menu = [
 
-    {"title": "home", "path": "home",
+    {"title": "home", "path": "",
       "subMenu": [
         { "title": "about us", "path": "about-us", },
         //{ "title": "shipping", "path": "shipping" },

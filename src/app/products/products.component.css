@@ -1,0 +1,76 @@
+.options {
+    padding: 100px 0;
+}
+
+.left-side, .options .right-side {
+    margin-top: 26px;
+}
+
+.options .left-side h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #151875;
+    margin: 0;
+}
+
+.options .left-side span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8A8FB9;
+} 
+
+.options .right-side {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3F509E;
+}
+
+.options .right-side label, .options .right-side span {
+    margin-right: 8px;
+}
+
+.options .right-side input, .options .right-side select {
+    outline: none;
+    border: 1px solid #E7E6EF;
+    box-sizing: border-box;
+    height: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8A8FB9;
+    border-radius: 0;
+    padding-left: 7px;
+    background-color: white;
+    margin-right: 27px;
+    margin-top: 10px;
+}
+
+.options .right-side input #perPage {
+    width: 55px;
+}
+
+.options .right-side select {
+    width: 96px;
+}
+
+.options .right-side input #blank {
+    width: 162px;
+}
+
+.options .right-side a {
+    color: #151875;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+
+.options .right-side a:first-of-type {
+    margin-right: 7px;
+}
+
+.options .right-side a:last-of-type {
+    margin-right: 27px;
+}

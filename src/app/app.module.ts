@@ -8,8 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainSliderComponent } from './home/main-slider/main-slider.component';
-import { ShopGridDefaultComponent } from './shop-grid-default/shop-grid-default.component';
-import { ShopListComponent } from './shop-list/shop-list.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SharedModule } from './Shared/shared.module';
 import { HomeComponent } from './home/home.component';
@@ -23,6 +21,7 @@ import { TopCategoriesComponent } from './home/top-categories/top-categories.com
 import { SubscribeUsComponent } from './home/subscribe-us/subscribe-us.component';
 import { LatestBlogComponent } from './home/latest-blog/latest-blog.component';
 import { RouterModule } from '@angular/router';
+import { ProductsComponent } from './products/products.component';
 
 
 
@@ -30,8 +29,6 @@ import { RouterModule } from '@angular/router';
   declarations: [
     AppComponent,
     MainSliderComponent,
-    ShopGridDefaultComponent,
-    ShopListComponent,
     NotFoundComponent,
     HomeComponent,
     FeaturedProductsComponent,
@@ -42,7 +39,8 @@ import { RouterModule } from '@angular/router';
     DiscountItemComponent,
     TopCategoriesComponent,
     SubscribeUsComponent,
-    LatestBlogComponent
+    LatestBlogComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
