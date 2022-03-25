@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -8,20 +8,20 @@ import { Router } from '@angular/router';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private route: ActivatedRoute) { }
   public menu = [
 
     {"title": "home", "path": "home",
       "subMenu": [
         { "title": "about us", "path": "about-us", },
-        { "title": "shipping", "path": "shipping" },
+        //{ "title": "shipping", "path": "shipping" },
         { "title": "FAQ", "path": "faq" }
       ]
     },
-    {
-      "title": "pages", "path": "pages"
+    // {
+    //   "title": "pages", "path": "pages"
 
-    },
+    // },
 
     {
       "title": "products", "path": "products"
@@ -32,10 +32,10 @@ export class NavigationComponent implements OnInit {
       "title": "blog", "path": "blog"
 
     },
-    {
-      "title": "shop", "path": "shop"
+    // {
+    //   "title": "shop", "path": "shop"
 
-    },
+    // },
     {
       "title": "contact", "path": "contact"
 
@@ -47,6 +47,11 @@ export class NavigationComponent implements OnInit {
   // }
 
   ngOnInit(): void {
+  }
+
+  onNavigate(path: string) {
+    this.router.navigate([`${path}`])
+    console.log(path) 
   }
 
 }

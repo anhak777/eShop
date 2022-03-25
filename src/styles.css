@@ -42,6 +42,7 @@ a {
     border-radius: 2px;
     padding: 14px 40px;
     border: none;
+    color: white;
 }
 
 .pink-btn a {
@@ -63,46 +64,3 @@ a {
     margin: 130px 0 0 0;
     font-weight: 700;
 }
-
-/*  ================= may be removed to its component ============== */
-
-.header-back {    
-    height: 286px;
-    box-sizing: border-box;
-}
-
-.caption-header {
-    padding: 96px 0 126px;
-}
-
-.caption-header h2 {
-    font-size: calc(30px + .5vw);
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    color: #101750;
-}
-
-.caption-header ul {
-    margin: 5px 0 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.caption-header li {
-    display: inline-block;
-}
-
-.caption-header a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Lato', sans-serif;
-    margin-right: 5px;
-    color: black;
-}
-
-.caption-header a:hover {
-    color: #FB2E86;
-}
-
-/*  ================= may be removed to its component ============== */

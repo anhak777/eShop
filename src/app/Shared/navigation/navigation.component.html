@@ -11,9 +11,8 @@
 
           <!-- ========================================================================== -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item" [ngClass]="{'dropdown': item.subMenu}" *ngFor="let item of menu"
-            [routerLink]="item.path">
-              <a class="nav-link" [ngClass]="{'dropdown-toggle': item.subMenu}" 
+            <li class="nav-item" [ngClass]="{'dropdown': item.subMenu}" *ngFor="let item of menu">
+              <a class="nav-link" [ngClass]="{'dropdown-toggle': item.subMenu}" [routerLink]="item.path"
               routerLinkActive="active_link" [routerLinkActiveOptions]="{exact: true}">{{item.title | titlecase}}
                 <span *ngIf="item.subMenu" class="icon-Arrow-down"></span>
               </a>

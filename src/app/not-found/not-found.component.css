@@ -5,17 +5,9 @@
 
 .pink-btn {
     display: block;
-    margin-left: calc(50% - 97px);
-    margin-bottom: 124px;    
+    margin-left: calc(50% - 97px);   
 }
 
-
-
-
-
-
-
-
-main {
-    padding-bottom: 100px ;  /* delete later */
+.wrapper-img {
+    margin: 124px 0 59px;
 }
