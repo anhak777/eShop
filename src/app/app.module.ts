@@ -17,6 +17,7 @@ import { FeaturedProductsComponent } from './home/featured-products/featured-pro
 import { LeatestProductsComponent } from './home/leatest-products/leatest-products.component';
 import { NewArrivalComponent } from './home/leatest-products/new-arrival/new-arrival.component';
 import { BestSellerComponent } from './home/leatest-products/best-seller/best-seller.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BestSellerComponent } from './home/leatest-products/best-seller/best-se
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
