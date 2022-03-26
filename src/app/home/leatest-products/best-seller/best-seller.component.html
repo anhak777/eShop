@@ -1,1 +1,5 @@
-<app-product-card [productInfo]="productCards"></app-product-card>
+<div class="product-cards ">
+    <ng-container *ngFor="let card of productCards" >
+        <app-card [card]="card"></app-card>
+    </ng-container>
+</div>
