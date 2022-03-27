@@ -28,3 +28,7 @@ h1 {
 .active_link{
     color: #FB2E86;
 }
+
+.container{
+    padding-bottom: 58px;
+}

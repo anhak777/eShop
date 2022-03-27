@@ -18,6 +18,8 @@ import { LeatestProductsComponent } from './home/leatest-products/leatest-produc
 import { NewArrivalComponent } from './home/leatest-products/new-arrival/new-arrival.component';
 import { BestSellerComponent } from './home/leatest-products/best-seller/best-seller.component';
 import { SharedModule } from './shared/shared.module';
+import { WhatShopexOffersComponent } from './home/what-shopex-offers/what-shopex-offers.component';
+import { BenefitComponent } from './home/what-shopex-offers/benefit/benefit.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { SharedModule } from './shared/shared.module';
     FeaturedProductsComponent,
     LeatestProductsComponent,
     NewArrivalComponent,
-    BestSellerComponent
+    BestSellerComponent,
+    WhatShopexOffersComponent,
+    BenefitComponent
   ],
   imports: [
     BrowserModule,

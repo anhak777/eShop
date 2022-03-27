@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>What Shopex Offer!</h1>
+    
+    <div class="benefits d-flex justify-content-center">
+        <ng-container *ngFor="let cardItem of cardInfo">
+            <app-benefit [iconInfo]="cardItem"></app-benefit>
+        </ng-container>
+    </div>
+</div>
