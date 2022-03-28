@@ -1,0 +1,108 @@
+.section{
+    background-color: #F1F0FF;
+    margin-bottom: 132px;
+}
+
+.container{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.unique-chair{
+    background-image: url("../../../assets/img/Unique-chair.png");
+    background-repeat: no-repeat;
+    width: 558px;
+    height: 550px;
+    background-color: #F1F0FF;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 35px;
+    line-height: 132%;
+    color: #151875;
+    margin-bottom: 32px;
+}
+
+ul {
+    padding-left: 18px;
+    margin-bottom: 38px;
+}
+
+ul li{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    color: #ACABC3;
+    width: 461px;
+}
+
+li:first-child::marker{
+    color: #F52B70;
+}
+
+li:nth-child(2)::marker{
+    color: #2B2BF5;
+}
+
+li:last-child::marker{
+    color: #2BF5CC;
+}
+
+.actions{
+    display: flex;
+    
+    align-items: center;
+}
+
+.btn{
+    padding: 0;
+    margin-right: 24px;
+}
+
+button{
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 14px 24px;
+    background-color: #FB2E86;
+    border-radius: 4px;
+}
+
+.additional-info{
+    padding-top: 12px;
+}
+
+span{
+    display: block;
+}
+
+.title{
+    font-family: 'Lato';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;    
+    color: #151875;
+    margin-bottom: 4px;
+}
+
+.price{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;   
+    color: #151875;
+}
+
