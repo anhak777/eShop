@@ -21,7 +21,7 @@
     border-radius: 50%;
     position: absolute;
     z-index: -99;
-    background: #9877E7;
+    /* background: #9877E7; */
     top: 1px;
     left: 1px;
     transition-duration: .5s;
@@ -29,6 +29,7 @@
 
 .top-category-box:hover .purple-circle{
     transform: translate(-6px, 6px);
+    background: #9877E7;
 }
 
 .top-category-box .img-wrapper img {

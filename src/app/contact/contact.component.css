@@ -1,0 +1,134 @@
+.container-xl {
+    padding-bottom: 240px;
+}
+
+.heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    color: #151875;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;
+    max-width: 550px;
+    margin-top: 17px;
+}
+
+.color-circles {
+    margin-top: 45px;
+}
+
+.color-circles span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.color-circles span:nth-of-type(1) {
+    background: #5625DF;
+}
+
+.color-circles span:nth-of-type(2) {
+    background: #FF27B7;
+}
+
+.color-circles span:nth-of-type(3) {
+    background: #37DAF3;
+}
+
+.info-wrapper p {
+    display: inline-block;
+}
+
+.info-wrapper .left-side {
+    margin-right: 35px;
+}
+
+.info-wrapper .circle {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.left-side div:nth-of-type(1) .circle {
+    background: #5726DF;
+}
+
+.left-side div:nth-of-type(2) .circle {
+    background: #FFB265;
+}
+
+.right-side div:nth-of-type(1) .circle  {
+    background: #FB2E86;
+}
+
+.right-side div:nth-of-type(2) .circle  {
+    background: #1BE982;
+}
+
+.contact-form {
+    margin-top: 45px;
+}
+
+.contact-form input, textarea {
+    border: 1px solid rgba(164, 182, 200, 0.7);
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 45px;
+    padding-left: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    color: #8A8FB9;
+    width: 100%;
+}
+
+.contact-form input::placeholder, textarea::placeholder {
+    color: #8A8FB9;
+}
+
+#name {
+    margin-right: 24px;
+}
+
+#name, #email {
+    max-width: 255px;
+}
+
+#subject {
+    margin: 34px 0 47px;
+}
+
+#subject, #message {
+    max-width: 534px;
+}
+
+#message {
+    padding-top: 17px;
+    height: 166px;
+    resize: none;
+}
+
+.contact-form .pink-btn {
+    width: 157px;
+    height: 44px;
+    padding: 11px 30px;
+    margin-top: 30px;
+}
+
+.img-wrapper {
+    padding-top: 120px;
+    text-align: center;
+}
+
