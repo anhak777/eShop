@@ -52,6 +52,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #151875;
+    text-decoration: underline;
 }
 
 .latest-blog-box:hover .art-info-container h5{

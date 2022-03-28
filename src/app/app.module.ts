@@ -22,6 +22,12 @@ import { SubscribeUsComponent } from './home/subscribe-us/subscribe-us.component
 import { LatestBlogComponent } from './home/latest-blog/latest-blog.component';
 import { RouterModule } from '@angular/router';
 import { ProductsComponent } from './products/products.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
+import { FaqComponent } from './faq/faq.component';
+import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
 
 
@@ -40,7 +46,13 @@ import { ProductsComponent } from './products/products.component';
     TopCategoriesComponent,
     SubscribeUsComponent,
     LatestBlogComponent,
-    ProductsComponent
+    ProductsComponent,
+    ContactComponent,
+    LoginComponent,
+    FaqComponent,
+    AboutComponent,
+    BlogComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
