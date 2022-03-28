@@ -28,6 +28,7 @@ import { FaqComponent } from './faq/faq.component';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { LoginFormComponent } from './login/login-form/login-form.component';
 
 
 
@@ -52,7 +53,8 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     FaqComponent,
     AboutComponent,
     BlogComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
