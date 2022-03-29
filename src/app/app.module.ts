@@ -21,6 +21,7 @@ import { SharedModule } from './shared/shared.module';
 import { WhatShopexOffersComponent } from './home/what-shopex-offers/what-shopex-offers.component';
 import { BenefitComponent } from './home/what-shopex-offers/benefit/benefit.component';
 import { UniqueFeaturesComponent } from './home/unique-features/unique-features.component';
+import { TrendingProductsComponent } from './home/trending-products/trending-products.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { UniqueFeaturesComponent } from './home/unique-features/unique-features.
     BestSellerComponent,
     WhatShopexOffersComponent,
     BenefitComponent,
-    UniqueFeaturesComponent
+    UniqueFeaturesComponent,
+    TrendingProductsComponent
   ],
   imports: [
     BrowserModule,

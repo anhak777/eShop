@@ -1,0 +1,165 @@
+.container{
+    margin-bottom: 126px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 48px;
+    color: #1A0B5B;
+}
+
+.product-cards{
+    margin-bottom: 40px;
+    gap: 24px;
+}
+
+
+/* Section 1 */
+.section-one {
+    margin-right: 24px;
+    background-color: #FFF6FB;
+    position: relative;
+    padding: 32px 6px 2px 24px;
+    width: 420px;
+    height: 270px;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+h2{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #151875;
+    margin-bottom: 12px;
+    display: block;
+    text-align: left;
+}
+
+
+a{
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FB2E86;
+    display: block;
+    text-align: left;
+}
+
+.image{
+    bottom: 2px;
+    right: 6px;
+    position: absolute;
+    background-image: url("../../../assets/img/clock.png"); 
+    background-color: #FFF6FB;
+    width: 213px; 
+    height: 207px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Secton 2 */
+
+.section-two{
+    margin-right: 24px;
+    background-color: #EEEFFB;
+    position: relative;
+    padding: 32px 6px 2px 24px;
+    width: 420px;
+    height: 270px;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.image-two{
+    bottom: 2px;
+    right: 6px;
+    position: absolute;
+    background-image: url("../../../assets/img/commode.png"); 
+    background-color: #EEEFFB;
+    width: 312px; 
+    height: 173px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section 3 */
+.chair-bg{
+    background-color: #EEEFFB;
+    padding: 2px 22px;
+}
+
+.chair-img{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../../../assets/img/chair-one.png"); 
+    background-color: #EEEFFB;
+    width: 64px; 
+    height: 71px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chair-img-two{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../../../assets/img/chair-two.png"); 
+    background-color: #EEEFFB;
+    width: 64px; 
+    height: 71px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chair-img-three{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../../../assets/img/chair-three.png"); 
+    background-color: #EEEFFB;
+    width: 64px; 
+    height: 71px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chair-txt{
+    padding-left: 8px;
+}
+
+.title{
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #151875;
+    margin-bottom: 4px;
+    text-align: left; 
+}
+
+.price{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #151875;   
+    text-align: left; 
+}
+
+.chairs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
