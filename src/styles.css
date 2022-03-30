@@ -43,6 +43,9 @@ a {
     padding: 14px 40px;
     border: none;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.02em;
 }
 
 .pink-btn a {

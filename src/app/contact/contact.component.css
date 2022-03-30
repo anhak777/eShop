@@ -110,7 +110,7 @@
     margin: 34px 0 47px;
 }
 
-#subject, #message {
+#subject, #message, #student {
     max-width: 534px;
 }
 
@@ -118,6 +118,21 @@
     padding-top: 17px;
     height: 166px;
     resize: none;
+}
+
+#student {
+    margin-top: 45px;
+    display: none;
+}
+
+.display {
+    display: block !important;
+}
+
+.discount {
+    width: 200px !important;
+    padding: 11px 0 !important;
+    margin-left: 10%;
 }
 
 .contact-form .pink-btn {
@@ -132,3 +147,7 @@
     text-align: center;
 }
 
+button[disabled] {
+    cursor: not-allowed;
+    background: #8A8FB9;
+}

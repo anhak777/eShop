@@ -49,12 +49,15 @@
             <div class="col-lg-6">
                 <h6 class="heading">Get In Touch</h6>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices  tristique amet erat vitae eget dolor los vitae lobortis quis bibendum quam.</p>
-                <form #myForm="ngForm" novalidate (ngSubmit)="onSubmit(myForm)" class="contact-form">
-                    <input name="name" type="text" id="name" placeholder="Your Name*">
-                    <input name="email" type="email" id="email" placeholder="Your E-mail" > <br>
-                    <input name="subject" type="text" id="subject" placeholder="Subject*"> <br>
-                    <textarea name="message" id="message" placeholder="Type Your Messege*" ></textarea> <br>
-                    <button class="pink-btn" type="submit" [disabled]="myForm.invalid"><a>Send Mail</a></button>
+                <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="contact-form">
+                    <input formControlName="name" type="text" id="name" placeholder="Your Name*" required>
+                    <input formControlName="email" type="email" id="email" placeholder="Your E-mail"> <br>
+                    <input formControlName="subject" name="subject" type="text" id="subject" placeholder="Subject*" required> <br>
+                    <textarea formControlName="message" name="message" id="message" placeholder="Type Your Messege*" required></textarea> <br>
+                    <input formControlName="university" id="student" type="text" placeholder="Type your university name*" [ngClass]="{'display' : flag}"> <br>
+                    
+                    <button class="pink-btn" type="submit" [disabled]="myForm.invalid">Send Mail</button>
+                    <button class="pink-btn discount" type="button" (click)="studentControl()">Discount for studnets</button>
                 </form>
             </div>
             <div class="col-lg-6">
