@@ -1,0 +1,82 @@
+ul{
+    padding: 0;
+}
+ul li{
+    margin: 0 0 16px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.section{
+    background: #EEEFFB;
+}
+
+.container{
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    gap: 24px;
+}
+
+.lists{
+    gap: 56px;
+}
+
+.logo{
+    font-size: 38px;
+    line-height: 45px; 
+}
+
+.email{
+    border-style: none;
+    height: 44px;
+    margin-bottom: 24px;
+}
+
+::placeholder{
+    top: 4px;
+    right: 20px;
+    color: #8A8FB9;
+}
+
+button{
+    padding: 10px 40px;
+    background: #FB2E86;
+    color: white;
+    border-style: none;
+}
+
+.contact-info{
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8A8FB9;
+}
+
+.address-info{
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8A8FB9;
+}
+
+h1{
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+li{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8A8FB9;
+    margin-bottom: 24px;
+}

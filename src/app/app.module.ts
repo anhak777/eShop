@@ -22,6 +22,7 @@ import { WhatShopexOffersComponent } from './home/what-shopex-offers/what-shopex
 import { BenefitComponent } from './home/what-shopex-offers/benefit/benefit.component';
 import { UniqueFeaturesComponent } from './home/unique-features/unique-features.component';
 import { TrendingProductsComponent } from './home/trending-products/trending-products.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { TrendingProductsComponent } from './home/trending-products/trending-pro
     WhatShopexOffersComponent,
     BenefitComponent,
     UniqueFeaturesComponent,
-    TrendingProductsComponent
+    TrendingProductsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
