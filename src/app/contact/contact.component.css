@@ -1,0 +1,78 @@
+.container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D3178;
+    margin-bottom: 64px;
+    text-align: left;
+}
+
+.left-section div{
+    margin-bottom: 64px;
+}
+
+h4{
+    font-size: 17px;
+    line-height: 30px;
+    color: #1D3178;
+}
+
+p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #A1ABCC;
+    width: 500px;
+}
+
+
+/* second container */
+.contact-us{
+    padding: 64px 48px;
+    background-color: #F8F8FD;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D3178;
+    text-align: left;
+    margin-bottom: 114px;
+}
+
+.right-section input{
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #CDCEDC;
+    border-radius: 5px;   
+    height: 50px;
+    width: 27.8vw;
+    margin-bottom: 40px;
+}
+
+textarea{
+    width: 27.8vw;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #CDCEDC;
+    border-radius: 5px;   
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 8px 40px;
+    color: white;
+    background: #FB2E86;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.error{
+    display: inline;
+    color: red;
+}

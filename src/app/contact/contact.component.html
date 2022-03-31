@@ -1,1 +1,74 @@
-<p>contact works!</p>
+<div class="container d-flex flex-row justify-content-between">
+    <div class="left-section">
+        <h1>General Information</h1>
+        <div class="first-info">
+            <h4>Eu dictumst cum at sed euismood condimentum?</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt sed tristique mollis vitae, consequat gravida sagittis.
+            </p>
+        </div>
+        <div class="second-info">
+            <h4>Eu dictumst cum at sed euismood condimentum?</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt sed tristique mollis vitae, consequat gravida sagittis.
+            </p>
+        </div>
+        <div class="third-info">
+            <h4>Eu dictumst cum at sed euismood condimentum?</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt sed tristique mollis vitae, consequat gravida sagittis.
+            </p>
+        </div>
+        <div class="fourth-info">
+            <h4>Eu dictumst cum at sed euismood condimentum?</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt sed tristique mollis vitae, consequat gravida sagittis.
+            </p>
+        </div>
+    </div>
+
+    <div class="right-section">
+
+        <div class="contact-us">
+            <h2>Ask a Question</h2>
+
+            <form [formGroup]="contactUs" (ngSubmit)="onSubmit()">
+
+                <input type="text" id="name" formControlName="name" placeholder="Name">
+
+                <div *ngIf="!name?.valid && (name?.dirty || name?.touched)" class="error">
+                    <div [hidden]="!name.errors.required">
+                        Name is Required
+                    </div>
+                </div>
+
+                <input type="email" id="email" formControlName="email" placeholder="Email">
+
+                <div *ngIf="!email?.valid && (email.dirty || email.touched)" class="error">
+                    <div [hidden]="!email.errors.required">
+                        email is required
+                    </div>
+                    <div [hidden]="!email.errors.email">
+                        Invalid email
+                    </div>
+                </div>
+
+                <textarea name="message" id="message" cols="30" rows="10" formControlName="message" placeholder="Message"></textarea>
+                <div *ngIf="!message?.valid && (message?.dirty || message?.touched)" class="error">
+                    <div [hidden]="!message.errors.required">
+                        Message is Required
+                    </div>
+                </div>
+                <button type="submit" [disabled]="!contactUs.valid">Send Mail</button>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
