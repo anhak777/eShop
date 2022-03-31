@@ -26,74 +26,111 @@
             </div>            
         </div>
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3 option-list">
                 <div class="product-brand">
                     <h6>Product Brand</h6>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <label class="checkbox-wrapper" *ngFor="let item of prodBrand">{{item}}
+                        <input type="checkbox">
+                        <span class="checkmark icon-OK"></span>
+                    </label>  
                 </div>
                 <div class="discount-offer">
                     <h6>Discount Offer</h6>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <label class="checkbox-wrapper" *ngFor="let item of discount">{{item}}
+                        <input type="checkbox">
+                        <span class="checkmark icon-OK"></span>
+                    </label>
                 </div>
                 <div class="rating-item">
                     <h6>Rating Item</h6>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <label class="checkbox-wrapper">
+                        <input type="checkbox">
+                        <div class="star-container">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                        </div>
+                        <span class="checkmark icon-OK"></span>
+                        <span class="amount">(2341)</span>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input type="checkbox">
+                        <div class="star-container">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                        </div>
+                        <span class="checkmark icon-OK"></span>
+                        <span class="amount">(1726)</span>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input type="checkbox">
+                        <div class="star-container">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                        </div>
+                        <span class="checkmark icon-OK"></span>
+                        <span class="amount">(258)</span>
+                    </label>
+                    <label class="checkbox-wrapper">
+                        <input type="checkbox">
+                        <div class="star-container">
+                            <img src="../../assets/icons/Star-golden.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                            <img src="../../assets/icons/Star-silver.svg">
+                        </div>
+                        <span class="checkmark icon-OK"></span>
+                        <span class="amount">(25)</span>
+                    </label>
                 </div>
                 <div class="categories">
                     <h6>Categories</h6>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <label class="checkbox-wrapper" *ngFor="let item of categories">{{item}}
+                        <input type="checkbox">
+                        <span class="checkmark icon-OK"></span>
+                    </label>
                 </div>
                 <div class="price-filter">
                     <h6>Price Filter</h6>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <input type="search">
+                    <label class="checkbox-wrapper" *ngFor="let item of price">{{item}}
+                        <input type="checkbox">
+                        <span class="checkmark icon-OK"></span>
+                    </label>
+                    <form class="price-search">
+                        <input type="search" id="search" placeholder="$10.00 - 20000$">
+                        <span class="icon-Loupe"></span>
+                    </form>                    
                 </div>
                 <div class="filter-by-color">
                     <h6>Filter By Color</h6>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><span></span>Blue</li>
+                        <li><span></span>Orange</li>
+                        <li><span></span>Brown</li>
+                        <li><span></span>Green</li>
+                        <li><span></span>Purple</li>
+                        <li><span></span>Sky</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-10">
-
+            <div class="col-md-9">
+                <!-- <app-product-item-box [prodItems]="prodItems"></app-product-item-box> -->
+                <app-product-item-box-list></app-product-item-box-list>
             </div>
         </div>
+    </div>
+    <div class="container-xl center-header">
+        <div class="wrapper-img">
+            <img class="img-fluid" src="../../../assets/graphics/Sponsor.svg" alt="sponsors">
+        </div> 
     </div>
 </div>

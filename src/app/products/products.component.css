@@ -74,3 +74,220 @@
 .options .right-side a:last-of-type {
     margin-right: 27px;
 }
+
+.option-list {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7E81A2;
+}
+
+.option-list h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #151875;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.option-list .checkbox-wrapper {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.option-list input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.option-list .checkmark {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.checkmark:before {
+    font-size: 8px;    
+    position: absolute;
+    top: 4.5px;
+    left: 3.2px;
+}
+
+.option-list .checkbox-wrapper:hover input ~ .checkmark:before {
+    color: white;
+}
+
+.option-list .checkbox-wrapper input:checked ~ .checkmark:before {
+    color: white;
+}
+
+/* ---------------------------------------- */
+
+.option-list > .product-brand .checkmark {
+    background: #E5E0FC;
+}
+
+.option-list > .product-brand .checkbox-wrapper:hover input ~ .checkmark {
+    background: #603EFF;
+}
+
+.option-list > .product-brand .checkbox-wrapper input:checked ~ .checkmark {
+    background: #603EFF;
+}
+
+.option-list > .product-brand .checkmark:before {
+    color: #603EFF;
+}
+
+/* ---------------------------------------- */
+
+.option-list > .rating-item .checkmark {
+    background: #FFF6DA;
+}
+
+.option-list > .rating-item .checkbox-wrapper:hover input ~ .checkmark {
+    background: #FFCC2E;
+}
+
+.option-list > .rating-item .checkbox-wrapper input:checked ~ .checkmark {
+    background: #FFCC2E;
+}
+
+.option-list > .rating-item .checkmark:before {
+    color: #FFCC2E;
+}
+
+/* ---------------------------------------- */
+
+.option-list > .discount-offer .checkmark, 
+.option-list > .categories .checkmark, 
+.option-list > .price-filter .checkmark {
+    background: #FFDBF1;
+}
+
+.option-list > .discount-offer .checkbox-wrapper:hover input ~ .checkmark,
+.option-list > .categories .checkbox-wrapper:hover input ~ .checkmark, 
+.option-list > .price-filter .checkbox-wrapper:hover input ~ .checkmark  {
+    background: #FF3EB2;
+}
+
+.option-list > .discount-offer .checkbox-wrapper input:checked ~ .checkmark,
+.option-list > .categories .checkbox-wrapper input:checked ~ .checkmark,
+.option-list > .price-filter .checkbox-wrapper input:checked ~ .checkmark {
+    background: #FF3EB2;
+}
+
+.option-list > .discount-offer .checkmark:before,
+.option-list > .categories .checkmark:before,
+.option-list > .price-filter .checkmark:before {
+    color: #FF3EB2;
+}
+
+/* ---------------------------------------- */
+
+.star-container {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.star-container img {
+    margin-right: 2px;
+}
+
+.amount {
+    color: black;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    left: 4px;
+}
+
+#search {
+    border: 1px solid #BCBDDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 31px;
+    width: 203px;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+
+#search::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(21, 24, 117, 0.2);
+}
+
+.price-search {
+    position: relative;
+    width: 203px
+}
+
+.price-search span {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    color: #BCBDDB;
+}
+
+.filter-by-color li {
+    display: inline-block;
+    margin-right: 19px;
+}
+
+.filter-by-color li span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.filter-by-color li:nth-of-type(1) span {
+    background: #5E37FF;
+}
+
+.filter-by-color li:nth-of-type(2) span {
+    background: #FF9437;
+}
+
+.filter-by-color li:nth-of-type(3) span {
+    background: #FFBF95;
+}
+
+.filter-by-color li:nth-of-type(4) span {
+    background: #33D221;
+}
+
+.filter-by-color li:nth-of-type(5) span {
+    background: #E248FF;
+}
+
+.filter-by-color li:nth-of-type(6) span {
+    background: #26CBFF;
+}
+
+.product-brand, .discount-offer, .rating-item, .categories, .price-filter, .filter-by-color {
+    margin-bottom: 40px;
+}
+
+.wrapper-img {
+    margin: 200px 0 140px;
+}

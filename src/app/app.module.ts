@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
-
 import { MainSliderComponent } from './home/main-slider/main-slider.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SharedModule } from './Shared/shared.module';

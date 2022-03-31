@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col"  *ngFor="let item of prodItems">
+        <div class="prod-item-box">
+            <div class="img-cont">
+                <img src="{{item.src}}" alt="">
+                <div class="options">
+                    <app-product-options></app-product-options>
+                </div>
+            </div>
+            <div class="info-cont">
+                <h6>{{item.name}}</h6>
+                <div class="color-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>{{item.newPrice}} <span>{{item.oldPrice}}</span></p>
+            </div>
+        </div>
+    </div>
+</div>
