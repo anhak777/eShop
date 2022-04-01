@@ -9,6 +9,10 @@
     margin: 65px 14px;
 }
 
+.feature-box:hover {
+    border-bottom: 2px solid #FF9100;
+}
+
 .feature-box .feat-icon{
     display: inline-block;
     width: 65px;

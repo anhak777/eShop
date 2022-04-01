@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ProductItemBoxComponent implements OnInit {
 
   @Input() prodItems;
+  @Input() viewProductsNumber: number
+  @Input() sortByOption;
   
   constructor() { }
 

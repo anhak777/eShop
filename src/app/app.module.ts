@@ -67,7 +67,8 @@ import { LoginFormComponent } from './login/login-form/login-form.component';
     RouterModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: []
 })
 
 

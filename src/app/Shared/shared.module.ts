@@ -14,15 +14,16 @@ import { LateBlogBoxComponent } from './late-blog-box/late-blog-box.component';
 import { RouterModule } from '@angular/router';
 import { ProductItemBoxComponent } from './product-item-box/product-item-box.component';
 import { ProductItemBoxListComponent } from './product-item-box-list/product-item-box-list.component';
+import { SortPipe } from './sort.pipe';
 
 
 
 @NgModule({
-  declarations: [UpperNavComponent, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent],
+  declarations: [UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent],
   imports: [
     CommonModule, 
-    RouterModule   
+    RouterModule
   ],
-  exports:[UpperNavComponent, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent]
+  exports:[UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent]
 })
 export class SharedModule { }

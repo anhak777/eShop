@@ -1,18 +1,18 @@
-<div class="prod-item-list d-flex">
+<div class="prod-item-list d-flex" *ngFor="let item of prodItems | slice: 0 : viewProductsNumber">
     <div class="img-cont">
-        <img src="../../../assets/img/Product-01.png" alt="">
+        <img src="{{item.src}}" alt="">
     </div>
     <div class="info-cont">
-        <div class="header">
-            <h6>Dictum morbi</h6>
+        <div class="header d-flex">
+            <h6>{{item.name}}</h6>
             <div class="color-dots">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>            
         </div>
-        <div class="d-flex">
-            <p>$26.00 <span>$26.00</span></p>
+        <div class="d-flex sum-n-rate">
+            <p>${{item.newPrice}} <span>${{item.oldPrice}}</span></p>
             <div class="star-container">
                 <img src="../../assets/icons/Star-golden.svg">
                 <img src="../../assets/icons/Star-golden.svg">
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="description">
-
+            {{item.desc}}
         </div>
         <div class="option">
             <ul class="d-flex">

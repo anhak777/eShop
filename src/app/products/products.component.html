@@ -9,19 +9,18 @@
             <div class="col-md-7 right-side">
                 <form action="">
                     <label for="perPage">Per Page:</label>
-                    <input type="number" id="perPage" name="perPage" min="0" max="9" step="0">
+                    <input type="number" [(ngModel)]="viewProductsNumber" id="perPage" name="perPage" min="0" max="12" step="0">
                     <label for="sort">Sort By:</label>
-                    <select id="sort" name="sort" size="1">
-                        <option value="best">Best Match</option>
-                        <option value="top">Top Products</option>
-                        <option value="discount">Discount</option>
-                        <option value="brand">Brand</option>
-                        <option value="cheap">Cheapest Products</option>
+                    <select id="sort" name="sort" size="1" [(ngModel)]="sortByOption" >
+                        <option value="name">Name</option>
+                        <option value="newPrice">Price</option>
+                        <option value="oldPrice">Old Price</option>
                     </select>
                     <span>View:</span>
-                    <a class="icon-View01"></a>
-                    <a class="icon-View02"></a>
+                    <a class="icon-View01" (click)="isListView = false"></a>
+                    <a class="icon-View02" (click)="isListView = true"></a>
                     <input type="text" id="blank">
+                    <button class="pink-btn" (click)="sort()">Sort</button>
                 </form>
             </div>            
         </div>
@@ -123,8 +122,8 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <!-- <app-product-item-box [prodItems]="prodItems"></app-product-item-box> -->
-                <app-product-item-box-list></app-product-item-box-list>
+                <app-product-item-box *ngIf="!isListView" [prodItems]="prodItems" [viewProductsNumber]="viewProductsNumber" [sortByOption]="sortByOption"></app-product-item-box>
+                <app-product-item-box-list *ngIf="isListView" [prodItems]="prodItems" [viewProductsNumber]="viewProductsNumber"  [sortByOption]="sortByOption"></app-product-item-box-list>
             </div>
         </div>
     </div>

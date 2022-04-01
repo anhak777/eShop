@@ -8,8 +8,15 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductsComponent } from './products/products.component';
+import { ProductItemBoxListComponent } from './Shared/product-item-box-list/product-item-box-list.component';
+import { ProductItemBoxComponent } from './Shared/product-item-box/product-item-box.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
+
+// const itemRoutes: Routes = [
+//   { path: 'grid', component: ProductItemBoxComponent},
+//   { path: 'list', component: ProductItemBoxListComponent}
+// ]
 
 const appRoutes: Routes =[
   { path: '', component: HomeComponent},

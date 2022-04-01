@@ -6,6 +6,7 @@
 
 .prod-item-box .img-cont {
     background: #F6F7FB;
+    box-sizing: border-box;
     width: 270px;
     height: 280px;
     position: relative;

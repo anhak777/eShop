@@ -1,0 +1,81 @@
+.answers {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #1D3178;
+    margin-top: 134px;
+}
+
+.answers h4 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.answers .quest {
+    font-size: 17px;
+    margin-top: 60px;
+}
+
+.answers .ans {
+    font-size: 16px;
+    line-height: 30px;
+    color: #A1ABCC;
+}
+
+.ask-form {
+    background: #F8F8FD;
+    padding: 65px 75px 50px 46px;
+    margin-top: 123px;
+}
+
+.ask-form h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #1D3178;
+    font-weight: 700;
+}
+
+.ask-form .question-form {
+    margin-top: 114px;
+}
+
+.ask-form .question-form input, 
+.ask-form .question-form textarea {
+    border: 1px solid #CDCEDC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 8px;
+}
+
+.ask-form .question-form input, 
+.ask-form .question-form textarea,
+.ask-form .question-form input::placeholder,
+.ask-form .question-form textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8990B1;
+}
+
+.ask-form .question-form #name {
+    margin-bottom: 35px;
+}
+
+.ask-form .question-form #subject {
+    margin-bottom: 45px;
+}
+
+.ask-form .question-form textarea {
+    resize: none;
+    margin-bottom: 41px;
+    min-height: 197px;
+}
+
+.ask-form .question-form .pink-btn {
+    width: 156px;
+    height: 48px;
+    padding: 14px 30px;
+}
+
+.wrapper-img {
+    margin: 92px 0 90px;
+}

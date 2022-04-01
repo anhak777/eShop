@@ -75,6 +75,12 @@
     margin-right: 27px;
 }
 
+.options .right-side .pink-btn {
+    height: 30px;
+    padding: 3px 15px;
+    margin-top: 10px;
+}
+
 .option-list {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -223,7 +229,7 @@
     box-sizing: border-box;
     border-radius: 3px;
     height: 31px;
-    width: 203px;
+    width: 175px;
     padding-left: 12px;
     margin-top: 10px;
 }
@@ -237,7 +243,7 @@
 
 .price-search {
     position: relative;
-    width: 203px
+    width: 175px;
 }
 
 .price-search span {
