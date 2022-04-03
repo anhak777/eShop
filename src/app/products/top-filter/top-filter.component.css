@@ -1,0 +1,58 @@
+.container{
+    margin: 100px auto;
+}
+
+.top-section{
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 22px;
+    line-height: 26px;
+    color: #151875;
+}
+
+p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8A8FB9;
+}
+
+.top-filters{
+    gap: 24px;
+}
+
+.top-filters label{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3F509E;
+    margin-right: 8px;
+}
+
+.form input, select{
+    height: 24px;
+    border: 1px solid #E7E6EF;
+    box-sizing: border-box;
+}
+
+.number-input{
+    width: 56px;
+}
+
+select{
+    width: 200px;
+}
+
+select option{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
