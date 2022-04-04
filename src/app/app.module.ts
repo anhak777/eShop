@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { UniqueFeaturesComponent } from './home/unique-features/unique-features.
 import { TrendingProductsComponent } from './home/trending-products/trending-products.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { TopFilterComponent } from './products/top-filter/top-filter.component';
+import { PaginationComponent } from './products/top-filter/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -48,13 +50,15 @@ import { TopFilterComponent } from './products/top-filter/top-filter.component';
     UniqueFeaturesComponent,
     TrendingProductsComponent,
     FooterComponent,
-    TopFilterComponent
+    TopFilterComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

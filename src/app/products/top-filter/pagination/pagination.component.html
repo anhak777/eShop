@@ -1,0 +1,11 @@
+<p>pagination works!</p>
+
+<ul>
+    <li>asd</li>
+</ul>
+
+<ul>
+    <li *ngFor="let item of collection | paginate: { itemsPerPage: 10, currentPage: p }"> ... </li>
+  </ul>
+             
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
