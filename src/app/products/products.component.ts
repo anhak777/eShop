@@ -66,7 +66,6 @@ export class ProductsComponent implements OnInit {
   public sort() {
     //console.log(this.sortByOption);
     
-    
   }
 
   ngOnInit(): void {

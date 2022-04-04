@@ -2,13 +2,13 @@
 <div class="container-fluid">
     <div class="container-xl">
         <div class="row history">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="image-wrapper">
                     <div class="blue-div"></div>
-                    <img src="../../assets/img/About-us.png" alt="">
+                    <img class="" src="../../assets/img/About-us.png" alt="">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="text-wrapper">
                     <h3>Know About Our Ecomerce<br>
                         Business, History
@@ -17,13 +17,78 @@
                         mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae<br>
                         eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.
                     </p>
-                    <button class="pink-btn" type="button"><a routerLink="contact-us">Contact Us</a></button>
+                    <button class="pink-btn" type="button"><a routerLink="/contact">Contact Us</a></button>
                 </div>                
             </div>
         </div>
     </div>
-    <div class="container-xl center-header">
+   <div class="container-xl center-header">
         <h2 class="main-page-header">Our Features</h2>
         <app-feature-box></app-feature-box>
     </div>
 </div>
+
+<div class="container-fluid center-header client-say">
+    <h2 class="main-page-header">Our Client Say!</h2>
+    <div class="client-img-wrap">
+        <div class="client-img">
+            <img src="../../assets/img/Client-01.png" alt="">
+        </div>
+        <div class="client-img">
+            <img src="../../assets/img/Client-02.png" alt="">
+        </div>
+        <div class="client-img">
+            <img src="../../assets/img/Client-03.png" alt="">
+        </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active pink-line" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="pink-line"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="pink-line"></button>
+        </div>
+        <div class="carousel-inner container-xl">            
+          <div class="carousel-item active">
+            <div class="fp-box-wrapper">
+                <p class="client-name">Xavier Domingo</p>
+                <p class="client-prof">Developer At Webecy Digital</p>
+                <p class="client-thoughts">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non duis ultrices quam vel dui sollicitudin <br>
+                    aliquet id arcu. Nam vitae a enim nunc, sed sapien egestas ac nam. Tristique ultrices dolor <br>
+                    aliquam lacus volutpat praesent.
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="fp-box-wrapper">
+                <p class="client-name">Selina Gomez</p>
+                <p class="client-prof">Ceo At Webecy Digital</p>
+                <p class="client-thoughts">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non duis ultrices quam vel dui sollicitudin <br>
+                    aliquet id arcu. Nam vitae a enim nunc, sed sapien egestas ac nam. Tristique ultrices dolor <br>
+                    aliquam lacus volutpat praesent.
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="fp-box-wrapper">
+                <p class="client-name">Lee Cho Totam</p>
+                <p class="client-prof">Manager At Webecy Digital</p>
+                <p class="client-thoughts">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non duis ultrices quam vel dui sollicitudin <br>
+                    aliquet id arcu. Nam vitae a enim nunc, sed sapien egestas ac nam. Tristique ultrices dolor <br>
+                    aliquam lacus volutpat praesent.
+                </p>
+            </div>
+          </div>          
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+    </div>

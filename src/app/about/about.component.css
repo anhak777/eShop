@@ -1,0 +1,108 @@
+.history {
+    margin-top: 120px;
+}
+
+.history .image-wrapper {
+    position: relative;
+    height: 410px;
+    margin-bottom: 10px;
+}
+
+.history .image-wrapper img, .history .image-wrapper .blue-div {
+    position: absolute;
+    border-radius: 6px;
+    right: 15px;
+}
+
+.history .image-wrapper .blue-div {
+    width: 552px;
+    height: 409px;
+    background: #2B3CAB;
+    right: 33px;
+}
+
+.history .text-wrapper h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #151875;
+    margin-top: 40px;
+}
+
+.history .text-wrapper p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;
+    margin-top: 25px;
+}
+
+.history .text-wrapper .pink-btn {
+    width: 145px;
+    height: 44px;
+    padding: 12px 20px;
+    margin-top: 60px;
+}
+
+.main-page-header {
+    color: black;
+}
+
+.pink-line {
+    background: #FF75B0;
+    border-radius: 10px;
+    width: 18px;
+    height: 3px;
+    border: 1px;
+}
+
+.carousel-indicators .active {
+    background: #FB2E86;
+    width: 27px;
+}
+
+.client-say {
+    background: #FBFBFF;
+    padding: 71px 0 77px;
+    margin: 107px 0 305px;
+    font-family: 'Lato', sans-serif;
+}
+
+.client-say .main-page-header {
+    margin: 0 0 64px 0;
+}
+
+.client-img {
+    display: inline-block;
+    border-radius: 2px;
+    margin: 0 7px;
+}
+
+.client-img img {
+    border-radius: 2px;
+}
+
+/* ====================== carousel ======================= */
+
+
+.client-name {
+    color: black;
+    font-size: 22px;
+    margin: 25px 0 0;
+}
+
+.client-prof {
+    font-size: 10px;
+    color: #8A8FB9;
+    margin-top: 3px;
+}
+
+.client-thoughts {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8A8FB9;
+    max-width: 689px;
+    margin: 15px auto 50px;
+}
