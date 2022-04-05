@@ -27,6 +27,7 @@ import { TrendingProductsComponent } from './home/trending-products/trending-pro
 import { FooterComponent } from './home/footer/footer.component';
 import { TopFilterComponent } from './products/top-filter/top-filter.component';
 import { PaginationComponent } from './products/top-filter/pagination/pagination.component';
+import { ProductFilterComponent } from './products/top-filter/pagination/product-filter/product-filter.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { PaginationComponent } from './products/top-filter/pagination/pagination
     FooterComponent,
     TopFilterComponent,
     PaginationComponent,
+    ProductFilterComponent,
   ],
   imports: [
     BrowserModule,

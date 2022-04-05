@@ -1,11 +1,7 @@
-<p>pagination works!</p>
+<div class="d-flex lex-row flex-wrap justify-content-center">
+  <ng-container *ngFor="let item of collection | paginate: {itemsPerPage: 10, currentPage: p }">
+    <app-card [card]="item"></app-card>
+  </ng-container>
+</div>
 
-<ul>
-    <li>asd</li>
-</ul>
-
-<ul>
-    <li *ngFor="let item of collection | paginate: { itemsPerPage: 10, currentPage: p }"> ... </li>
-  </ul>
-             
-<pagination-controls (pageChange)="p = $event"></pagination-controls>
+<pagination-controls class="paginatio-style" (pageChange)="p = $event"></pagination-controls>
