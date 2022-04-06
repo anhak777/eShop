@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 interface objType {
   id: number
@@ -15,6 +15,7 @@ interface objType {
 })
 export class PaginationComponent implements OnInit {
 
+  @Input() pageNumber;
 
   p: number = 1;
 

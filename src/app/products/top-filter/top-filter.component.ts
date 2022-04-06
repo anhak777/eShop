@@ -12,7 +12,17 @@ export class TopFilterComponent implements OnInit {
   perPage = new FormControl('');
   
   search = new FormControl('');
+
   
+  perPageInfo(): number {
+    return this.perPage.value;
+  }
+  
+  pageValue = this.perPageInfo();
+
+  
+  
+
   sortSelects = [
     {id: 1, option: "Best Match"},
     {id: 2, option: "Worst Match"},
@@ -29,7 +39,8 @@ export class TopFilterComponent implements OnInit {
 
 
   ngOnInit(): void {
-
+    console.log(this.pageValue)
+    
   }
 
 }
