@@ -4,6 +4,8 @@ import { FormsModule }   from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -30,6 +32,8 @@ import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginFormComponent } from './login/login-form/login-form.component';
+
+
 
 
 
@@ -64,7 +68,8 @@ import { LoginFormComponent } from './login/login-form/login-form.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule, 
-    RouterModule
+    RouterModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent],
