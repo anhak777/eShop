@@ -13,16 +13,6 @@ export class TopFilterComponent implements OnInit {
   
   search = new FormControl('');
 
-  
-  perPageInfo(): number {
-    return this.perPage.value;
-  }
-  
-  pageValue = this.perPageInfo();
-
-  
-  
-
   sortSelects = [
     {id: 1, option: "Best Match"},
     {id: 2, option: "Worst Match"},
@@ -35,14 +25,11 @@ export class TopFilterComponent implements OnInit {
   })
 
   constructor() { }
-  
-
 
   ngOnInit(): void {
-    console.log(this.pageValue)
-    
   }
 
 }
+
 
 // https://angular.io/api/forms/SelectControlValueAccessor

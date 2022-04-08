@@ -7,10 +7,9 @@
     <div class="top-filters d-flex justify-content-between">
         <div class="per-page form">
             <label for="perPage">Per Page</label>
-            <input class="number-input" type="number" id="perPage" [formControl]="perPage" (keyup.enter)="perPageInfo()"> 
-            <!-- <app-pagination [pageNumber]="pageValue"></app-pagination> -->
+            <input class="number-input" type="number" id="perPage" [formControl]="perPage"> 
         </div>
-
+        
         <div class="sort-by form">
             <form [formGroup]="form">
                 <label for="sortBy">SortBy</label>
@@ -28,4 +27,9 @@
             <input type="text" id="search" [formControl]="search">
         </div>
     </div>
+</div>
+
+<div class="d-flex flex-row">
+    <app-product-filter></app-product-filter>
+    <app-pagination [pageNumber]="perPage.valueChanges | async"></app-pagination>
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Observable } from 'rxjs';
 
 interface objType {
   id: number
@@ -18,7 +19,7 @@ export class PaginationComponent implements OnInit {
   @Input() pageNumber;
 
   p: number = 1;
-
+  
   collection:objType [] = [
     {id: 1, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 2, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
@@ -44,4 +45,10 @@ export class PaginationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  pipe(o:Observable<any>){
+    o.subscribe(_=>{
+      return _
+    })
+  }
 }
