@@ -18,10 +18,12 @@ export class PaginationComponent implements OnInit {
 
   @Input() pageNumber;
 
+  @Input() pageSearch;
+
   p: number = 1;
   
   collection:objType [] = [
-    {id: 1, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
+    {id: 1, name:"Comfort Handy Craft Yeah", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 2, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 3, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 4, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
@@ -40,15 +42,33 @@ export class PaginationComponent implements OnInit {
     {id: 17, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"}
   ]  
   
-  constructor() { }
-
+  
+  collectionFilter = [];
+  
+  
+  constructor() {
+    
+    
+  }
+  
   ngOnInit(): void {
-  }
+    this.collectionFilter = this.collection.filter((nameFilter) => {
+      return nameFilter.name === this.pageSearch;
+    });
 
-
-  pipe(o:Observable<any>){
-    o.subscribe(_=>{
-      return _
-    })
+    
   }
+  
+  // for (let i = 0; i <= this.collection.length; i++){
+  //   if(this.collection[i].name === this.pageSearch){
+  //     this.collectionFilter.push(i);  
+  //   }
+    
+  // }
+
+  // pipe(o:Observable<any>){
+  //   o.subscribe(_=>{
+  //     return _
+  //   })
+  // }
 }
