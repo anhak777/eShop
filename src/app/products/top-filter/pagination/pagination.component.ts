@@ -23,9 +23,9 @@ export class PaginationComponent implements OnInit {
   p: number = 1;
   
   collection:objType [] = [
-    {id: 1, name:"Comfort Handy Craft Yeah", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
-    {id: 2, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
-    {id: 3, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
+    {id: 1, name:"Comfort Handy Craft Tupac", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
+    {id: 2, name:"Comfort Handy Tupic", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
+    {id: 3, name:"Hello", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 4, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 5, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 6, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
@@ -41,20 +41,35 @@ export class PaginationComponent implements OnInit {
     {id: 16, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"},
     {id: 17, name:"Comfort Handy Craft", price:"$42", oldPrice: "$65", src:"https://picsum.photos/id/1/223"}
   ]  
+
   
   
   collectionFilter = [];
   
   
   constructor() {
+    this.collection.forEach( element => console.log(element.name.toUpperCase()))
     
     
   }
   
   ngOnInit(): void {
-    this.collectionFilter = this.collection.filter((nameFilter) => {
-      return nameFilter.name === this.pageSearch;
-    });
+    
+    
+
+    this.collectionFilter = this.collection;
+
+    this.pageSearch.subscribe(data => {
+      
+      if (data){
+        this.collectionFilter = this.collection.filter((nameFilter) => {
+          return nameFilter.name.includes(data);
+        });
+      } else{
+        this.collectionFilter = this.collection
+      }
+    })
+
 
     
   }

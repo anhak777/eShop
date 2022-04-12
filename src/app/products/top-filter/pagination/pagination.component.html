@@ -1,5 +1,5 @@
 <div class="d-flex flex-row flex-wrap justify-content-center">
-  <ng-container *ngFor="let item of collection | paginate: {itemsPerPage: pageNumber, currentPage: p }">
+  <ng-container *ngFor="let item of collectionFilter | paginate: {itemsPerPage: pageNumber, currentPage: p }">
     <app-card [card]="item"></app-card>
   </ng-container>
 </div>
