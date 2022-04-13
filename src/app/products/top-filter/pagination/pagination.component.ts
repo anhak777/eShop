@@ -63,7 +63,7 @@ export class PaginationComponent implements OnInit {
       
       if (data){
         this.collectionFilter = this.collection.filter((nameFilter) => {
-          return nameFilter.name.includes(data);
+          return nameFilter.name.toUpperCase().includes(data.toUpperCase());
         });
       } else{
         this.collectionFilter = this.collection
