@@ -13,6 +13,15 @@ export class TopFilterComponent implements OnInit {
   
   search = new FormControl('');
 
+  checkBoxState = null;
+
+  addedCheck(newItem:boolean){
+    this.checkBoxState = newItem;
+    
+    console.log(this.checkBoxState)
+  }
+
+
   sortSelects = [
     {id: 1, option: "Best Match"},
     {id: 2, option: "Worst Match"},

@@ -29,7 +29,7 @@
     </div>
 </div>
 
-<div class="d-flex flex-row">
-    <app-product-filter></app-product-filter>
+<div class="container d-flex flex-row">
+    <app-product-filter (newItemEvent)="addedCheck($event)"></app-product-filter>
     <app-pagination [pageSearch]="search.valueChanges" [pageNumber]="perPage.valueChanges | async"></app-pagination>
 </div>
