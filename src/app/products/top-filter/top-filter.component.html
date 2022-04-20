@@ -24,12 +24,12 @@
 
         <div class="search form">
             <label for="perPage">Search</label>
-            <input type="text" id="search" [formControl]="search">
+            <input type="text" id="search" (keyup)="onKeyUp($event)" [formControl]="search">
         </div>
     </div>
 </div>
 
 <div class="container d-flex flex-row">
     <app-product-filter (newItemEvent)="addedCheck($event)"></app-product-filter>
-    <app-pagination [pageSearch]="search.valueChanges" [pageNumber]="perPage.valueChanges | async"></app-pagination>
+    <app-pagination [pageNumber]="perPage.valueChanges | async"></app-pagination>
 </div>

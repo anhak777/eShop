@@ -29,6 +29,7 @@ import { TopFilterComponent } from './products/top-filter/top-filter.component';
 import { PaginationComponent } from './products/top-filter/pagination/pagination.component';
 import { ProductFilterComponent } from './products/top-filter/pagination/product-filter/product-filter.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

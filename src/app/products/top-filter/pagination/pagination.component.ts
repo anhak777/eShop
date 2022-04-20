@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Observable } from 'rxjs';
+import { TopFilterService } from '../top-filter.service'
 
 interface objType {
   id: number
@@ -18,7 +18,7 @@ export class PaginationComponent implements OnInit {
 
   @Input() pageNumber;
 
-  @Input() pageSearch;
+  // @Input() pageSearch;
 
   p: number = 1;
   
@@ -47,7 +47,7 @@ export class PaginationComponent implements OnInit {
   collectionFilter = [];
   
   
-  constructor() {
+  constructor(private _topFilterService: TopFilterService) {
     this.collection.forEach( element => console.log(element.name.toUpperCase()))
     
     
@@ -59,7 +59,7 @@ export class PaginationComponent implements OnInit {
 
     this.collectionFilter = this.collection;
 
-    this.pageSearch.subscribe(data => {
+    this._topFilterService.searchInfo$.subscribe(data => {
       
       if (data){
         this.collectionFilter = this.collection.filter((nameFilter) => {

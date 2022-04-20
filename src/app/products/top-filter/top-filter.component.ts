@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-
+import { TopFilterService } from './top-filter.service';
 
 @Component({
   selector: 'app-top-filter',
@@ -33,7 +33,11 @@ export class TopFilterComponent implements OnInit {
     selecta: new FormControl(this.sortSelects)
   })
 
-  constructor() { }
+  constructor(private _topFilterService:TopFilterService) { }
+
+  onKeyUp(e){
+    this._topFilterService.sendSearch(e.target.value)
+  }
 
   ngOnInit(): void {
     
