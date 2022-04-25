@@ -11,7 +11,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductItemBoxListComponent } from './Shared/product-item-box-list/product-item-box-list.component';
 import { ProductItemBoxComponent } from './Shared/product-item-box/product-item-box.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
-
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 // const itemRoutes: Routes = [
 //   { path: 'grid', component: ProductItemBoxComponent},
@@ -21,6 +21,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 const appRoutes: Routes =[
   { path: '', component: HomeComponent},
   { path: 'products', component: ProductsComponent},
+  { path: 'products/product-details', component: ProductDetailsComponent},
   { path: 'blog', component: BlogComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'about-us', component: AboutComponent},

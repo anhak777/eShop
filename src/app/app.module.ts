@@ -32,6 +32,7 @@ import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginFormComponent } from './login/login-form/login-form.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 
@@ -59,7 +60,8 @@ import { LoginFormComponent } from './login/login-form/login-form.component';
     AboutComponent,
     BlogComponent,
     ShoppingCartComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

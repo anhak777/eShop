@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col"  *ngFor="let item of prodItems | slice: 0 : viewProductsNumber | sort: sortByOption">
-        <div class="prod-item-box">
+        <div class="prod-item-box" routerLink="product-details">
             <div class="img-cont">
                 <img src="{{item.src}}" alt="">
                 <div class="options">
