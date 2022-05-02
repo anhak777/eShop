@@ -15,11 +15,12 @@ import { RouterModule } from '@angular/router';
 import { ProductItemBoxComponent } from './product-item-box/product-item-box.component';
 import { ProductItemBoxListComponent } from './product-item-box-list/product-item-box-list.component';
 import { SortPipe } from './sort.pipe';
+import { PostPreviewBoxComponent } from './post-preview-box/post-preview-box.component';
 
 
 
 @NgModule({
-  declarations: [UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent],
+  declarations: [UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent, PostPreviewBoxComponent],
   imports: [
     CommonModule, 
     RouterModule
