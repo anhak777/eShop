@@ -106,3 +106,15 @@
     max-width: 689px;
     margin: 15px auto 50px;
 }
+.client-img-wrap {
+    height: 60px;
+}
+
+.client-img-wrap .client-img {
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

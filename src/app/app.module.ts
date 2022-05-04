@@ -33,6 +33,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginFormComponent } from './login/login-form/login-form.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { BlogFeedBoxComponent } from './Shared/blog-feed-box/blog-feed-box.component';
 
 
 
@@ -61,7 +62,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     BlogComponent,
     ShoppingCartComponent,
     LoginFormComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    BlogFeedBoxComponent
   ],
   imports: [
     BrowserModule,

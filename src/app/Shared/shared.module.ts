@@ -16,15 +16,16 @@ import { ProductItemBoxComponent } from './product-item-box/product-item-box.com
 import { ProductItemBoxListComponent } from './product-item-box-list/product-item-box-list.component';
 import { SortPipe } from './sort.pipe';
 import { PostPreviewBoxComponent } from './post-preview-box/post-preview-box.component';
+import { BlogPageBarComponent } from './blog-page-bar/blog-page-bar.component';
 
 
 
 @NgModule({
-  declarations: [UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent, PostPreviewBoxComponent],
+  declarations: [UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent, BlogPageBarComponent, PostPreviewBoxComponent, BlogPageBarComponent],
   imports: [
     CommonModule, 
     RouterModule
   ],
-  exports:[UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent]
+  exports:[UpperNavComponent, SortPipe, NavigationComponent, CaptionHeaderComponent, FooterComponent, FeatProdBoxComponent, LateProdBoxComponent, ProductOptionsComponent, FeatureBoxComponent, TrendProdBoxComponent, TopProdBoxComponent, LateBlogBoxComponent, ProductItemBoxComponent, ProductItemBoxListComponent, BlogPageBarComponent, PostPreviewBoxComponent, BlogPageBarComponent]
 })
 export class SharedModule { }

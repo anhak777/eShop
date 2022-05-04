@@ -1,1 +1,20 @@
 <app-caption-header title="Blog Page"></app-caption-header>
+<div class="container-fluid">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-8">
+                <app-blog-feed-box [blogPreview]="blogPreview"></app-blog-feed-box>
+            </div>
+            <div class="col-md-4">
+                <app-blog-page-bar></app-blog-page-bar>
+            </div>
+        </div>
+        <div class="wrapper-img center-header">
+            <img
+                class="img-fluid"
+                src="../../../assets/graphics/Sponsor.svg"
+                alt="sponsors"
+            />
+        </div>
+    </div>
+</div>

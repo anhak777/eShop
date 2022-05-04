@@ -1,4 +1,4 @@
-<div class="prod-item-list d-flex" *ngFor="let item of prodItems | slice: 0 : viewProductsNumber">
+<div class="prod-item-list d-flex" *ngFor="let item of prodItems | slice: 0 : viewProductsNumber | sort: sortByOption">
     <div class="img-cont">
         <img src="{{item.src}}" alt="">
     </div>
