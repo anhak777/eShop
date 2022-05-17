@@ -1,0 +1,69 @@
+.blog-preview{
+    margin-bottom: 40px;
+}
+
+.blog-info {
+    margin: 27px 0;
+}
+
+.blog-info img {
+    margin: 0 10px 0 8px;
+}
+
+.blog-info .date {
+    margin-left: 20px;
+}
+
+.blog-info .nickname, .blog-info .date {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #151875;
+}
+
+.blog-info span {
+    border-radius: 2px;
+}
+
+.blog-info .nickname span {
+    background: #FFE7F9;
+    padding: 3px 40px;
+}
+
+.blog-info .date span {
+    background: #FFECE2;
+    padding: 3px 25px;
+}
+
+.info-container h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151875;
+}
+
+.info-container p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8A8FB9;
+    margin-top: 20px;
+}
+
+.info-container a {
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #151875;    
+}
+
+.info-container a span {    
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #FB2E86;
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
