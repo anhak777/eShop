@@ -1,20 +1,22 @@
-<div class="blog-preview" *ngFor="let item of blogPreview"  data-aos="fade-down"  data-aos-duration="700">
-    <div class="img-container">
-        <img class="img-fluid" src="{{ item.src }}" alt="preview" />
-    </div>
-    <div class="info-container">
-        <div class="blog-info d-flex">
-            <div class="nickname">
-                <img src="../../../assets/icons/Pen-tip.svg" alt="pen" />
-                <span>{{ item.nick }}</span>
-            </div>
-            <div class="date">
-                <img src="../../../assets/icons/Calendar.svg" alt="calendar" />
-                <span>{{ item.date }}</span>
-            </div>
+<div class="blog-preview" *ngFor="let item of blogPreview">
+    <div  data-aos="fade-down"  data-aos-duration="700">
+        <div class="img-container">
+            <img class="img-fluid" src="{{ item.src }}" alt="preview" />
         </div>
-        <h5>{{ item.title }}</h5>
-        <p>{{ item.descript }}</p>
-        <a>Read More <span></span></a>
+        <div class="info-container">
+            <div class="blog-info d-flex">
+                <div class="nickname">
+                    <img src="../../../assets/icons/Pen-tip.svg" alt="pen" />
+                    <span>{{ item.nick }}</span>
+                </div>
+                <div class="date">
+                    <img src="../../../assets/icons/Calendar.svg" alt="calendar" />
+                    <span>{{ item.date }}</span>
+                </div>
+            </div>
+            <h5>{{ item.title }}</h5>
+            <p>{{ item.descript }}</p>
+            <a>Read More <span></span></a>
+        </div>
     </div>
 </div>
