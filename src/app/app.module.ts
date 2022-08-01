@@ -34,6 +34,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { LoginFormComponent } from './login/login-form/login-form.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { BlogFeedBoxComponent } from './Shared/blog-feed-box/blog-feed-box.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -73,7 +74,8 @@ import { BlogFeedBoxComponent } from './Shared/blog-feed-box/blog-feed-box.compo
     BrowserAnimationsModule,
     SharedModule, 
     RouterModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

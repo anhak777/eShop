@@ -4,6 +4,7 @@
 }
 
 .prod-item-list .img-cont{
+    flex: 0 0 284px;
     background: #EEEFFB;
     width: 284px;
     text-align: center;
@@ -11,9 +12,14 @@
 }
 
 .prod-item-list .img-cont img {
+    height: 130px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.prod-item-list:hover {
+    box-shadow: 0px 0px 20px 5px rgba(226, 225, 230, 0.75);
 }
 
 .prod-item-list:hover .img-cont {

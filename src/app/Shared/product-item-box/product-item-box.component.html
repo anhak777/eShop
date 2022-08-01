@@ -2,19 +2,19 @@
     <div class="col"  *ngFor="let item of prodItems | slice: 0 : viewProductsNumber | sort: sortByOption">
         <div class="prod-item-box" routerLink="product-details">
             <div class="img-cont">
-                <img src="{{item.src}}" alt="">
+                <img class="img-fluid" src="{{item.image}}" alt="">
                 <div class="options">
                     <app-product-options></app-product-options>
                 </div>
             </div>
             <div class="info-cont">
-                <h6>{{item.name}}</h6>
+                <h6>{{item.title}}</h6>
                 <div class="color-dots">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <p>${{item.newPrice}} <span>${{item.oldPrice}}</span></p>
+                <p>${{item.price}} <span>${{item.oldPrice}}</span></p>
             </div>
         </div>
     </div>

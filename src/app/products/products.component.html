@@ -9,12 +9,12 @@
             <div class="col-md-7 right-side">
                 <form action="">
                     <label for="perPage">Per Page:</label>
-                    <input type="number" [(ngModel)]="viewProductsNumber" id="perPage" name="perPage" min="0" max="12" step="0">
+                    <input type="number" [(ngModel)]="viewProductsNumber" id="perPage" name="perPage" min="0" max="20" step="0">
                     <label for="sort">Sort By:</label>
                     <select id="sort" name="sort" size="1" [(ngModel)]="sortByOption" >
-                        <option value="name">Name</option>
-                        <option value="newPrice">Price</option>
-                        <option value="oldPrice">Old Price</option>
+                        <option value="title">Name</option>
+                        <option value="price">Price</option>
+                        <!-- <option value="oldPrice">Old Price</option> -->
                     </select>
                     <span>View:</span>
                     <a class="icon-View01" (click)="isListView = false"></a>
